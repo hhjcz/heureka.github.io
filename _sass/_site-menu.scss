@@ -2,106 +2,106 @@
  * Site menu - title, nav
  */
 .site-menu {
-  margin-bottom: 2em;
-  padding: 2em 0;
-  border-bottom: 1px solid $grey-color-light;
+    margin-bottom: 2em;
+    padding: 2em 0;
+    border-bottom: 1px solid $grey-color-light;
 
-  @include mq-mobile-only() {
-    padding: 1em 0 0.5em 0;
-  }
+    @include mq-mobile-only() {
+        padding: 1em 0 0.5em 0;
+    }
 }
 
 .site-title {
-  float: left;
+    float: left;
 
-  &:hover,
-  &.active {
-    text-decoration: none;
+    &:hover,
+    &.active {
+        text-decoration: none;
 
-    .site-title__selector {
-      display: inline;
+        .site-title__selector {
+            display: inline;
+        }
     }
-  }
 }
 
 .site-title__bracket {
-  color: orange;
+    color: orange;
 }
 
 .site-title__tagname {
-  font-weight: bold;
-  color: #313131;
+    font-weight: bold;
+    color: #313131;
 }
 
 .site-title__attribute {
-  font-weight: bold;
-  color: #808080;
+    font-weight: bold;
+    color: #808080;
 }
 
 .site-title__selector {
-  display: none;
-  font-weight: bold;
-  color: #60a000;
+    display: none;
+    font-weight: bold;
+    color: #60a000;
 }
 
 .site-nav {
-  float: right;
+    float: right;
 
-  @include mq-mobile-only() {
-    &:hover .site-nav__trigger {
-      display: block;
-      padding-bottom: 5px;
+    @include mq-mobile-only() {
+        &:hover .site-nav__trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
     }
-  }
 }
 
 .site-nav__icon {
-  display: block;
-  float: right;
+    display: block;
+    float: right;
 
-  @include mq-desktop-only() {
-    display: none;
-  }
+    @include mq-desktop-only() {
+        display: none;
+    }
 }
 
 .site-nav__svg {
-  width: 1.5em;
+    width: 1.5em;
 }
 
 .site-nav__trigger {
-  margin: 0;
+    margin: 0;
 
-  @include mq-mobile-only() {
-    & {
-      display: none;
-      float: right;
-      clear: both;
-      margin-top: 1em;
+    @include mq-mobile-only() {
+        & {
+            display: none;
+            float: right;
+            clear: both;
+            margin-top: 1em;
+        }
     }
-  }
 }
 
 .site-nav__item {
-  list-style: none;
-  text-align: right;
+    list-style: none;
+    text-align: right;
 
-  @include mq-desktop-only {
-    display: inline;
-  }
+    @include mq-desktop-only {
+        display: inline;
+    }
 }
 
 .site-nav__link {
-  padding: 0 1em;
-  color: #313131 !important;
+    padding: 0 1em;
+    color: #313131 !important;
 
-  @include mq-mobile-only() {
-    display: block;
-    padding: 0;
-    line-height: 2.5em;
-  }
+    @include mq-mobile-only() {
+        display: block;
+        padding: 0;
+        line-height: 2.5em;
+    }
 
-  &:hover,
-  &.active {
-    text-decoration: underline;
-  }
+    &:hover,
+    &.active {
+        text-decoration: underline;
+    }
 }

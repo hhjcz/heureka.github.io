@@ -1,14 +1,4 @@
 /**
- * Reset some basic elements
- */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
-}
-
-/**
  * Basic styling
  */
 body {
@@ -37,7 +27,6 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-    max-width: 100%;
     vertical-align: middle;
 }
 
@@ -64,13 +53,6 @@ li {
     > ol {
         margin-bottom: 0;
     }
-}
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
 }
 
 /**
@@ -194,13 +176,6 @@ pre {
     @include mq-desktop-only() {
         display: none;
     }
-}
-
-/**
- * Heading
- */
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
 }
 
 /**

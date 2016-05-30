@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Jekyll posts"
+title: "Jekyll posts"
 permalink: /jekyll-posts/
-date:   2016-05-27 00:00:00 +0200
+date: 2016-05-27 00:00:00 +0200
 author: Peta Sittek
 tags: jekyll
 ---

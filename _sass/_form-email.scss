@@ -2,29 +2,29 @@
  * Form - email
  */
 .form-email {
-  text-align: center;
+    text-align: center;
 }
 
 .form-email__email {
-  border: 1px solid #808080;
-  border-radius: 0.25em;
-  margin-bottom: 0.5em;
-  padding: 1em 1em;
-  width: 40%;
+    border: 1px solid #808080;
+    border-radius: 0.25em;
+    margin-bottom: 0.5em;
+    padding: 1em 1em;
+    width: 40%;
 
-  @include mq-mobile-only {
-    width: 80%;
-  }
+    @include mq-mobile-only {
+        width: 80%;
+    }
 }
 
 .form-email__submit {
-  border-radius: 0.25em;
-  padding: 1em 5em;
-  cursor: pointer;
-  color: #ffffff;
-  background-color: #555555;
+    border-radius: 0.25em;
+    padding: 1em 5em;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #555555;
 
-  @include mq-mobile-only {
-    width: 80%;
-  }
+    @include mq-mobile-only {
+        width: 80%;
+    }
 }

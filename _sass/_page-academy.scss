@@ -2,41 +2,41 @@
  * Site page - academy
  */
 .page-academy {
-  text-align: center;
+    text-align: center;
 
-  h3 {
-    color: #000000;
-  }
+    h3 {
+        color: #000000;
+    }
 }
 
 .page-academy__info {
-  margin-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 .page-academy__how-to {
-  margin: auto;
-  margin-bottom: 2em;
-  width: 60%;
+    margin: auto;
+    margin-bottom: 2em;
+    width: 60%;
 
-  @include mq-mobile-only {
-    width: 100%;
-  }
+    @include mq-mobile-only {
+        width: 100%;
+    }
 }
 
 .page-academy__item {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .page-academy__icon {
-  width: 5em;
-  height: 5em;
+    width: 5em;
+    height: 5em;
 }
 
 .page-academy__description {
-  text-align: left;
-  padding-left: 1em;
-  color: #808080;
-  width: 100%;
+    text-align: left;
+    padding-left: 1em;
+    color: #808080;
+    width: 100%;
 }

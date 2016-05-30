@@ -11,8 +11,10 @@
 
 # TODO
 
-* Add icons (career, academy)
+* Check and improve copy
+* Add icons (academy page)
 * Floating/fixed menu (desktop)
 * Consider fixed menu (mobile)
-* Tags page
+* Add Open Graph and other tags
+* Implement tags page
 * Add Google Analytics

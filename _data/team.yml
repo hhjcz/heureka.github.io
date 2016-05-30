@@ -5,6 +5,7 @@
     - "Jan Navrátil"
     - "Michal Kožuch"
     - "David Šanda"
+    - "Jaroslav Jakoubě"
 
 
 - nameEn: "green"
@@ -26,14 +27,13 @@
     - "Jakub Krčma"
     - "Pavel Škoda"
     - "Martin Vozník"
-    - "Peta Sittek"
+    - "Petr Sittek"
 
 
 - nameEn: "blue"
   nameCs: "modří"
   colorCode: "#30a9d4"
   members:
-    - "Filim Melík"
+    - "Filip Melík"
     - "Jan Kahoun"
     - "Jakub Chábek"
-    - "Jaroslav Jakoubě"

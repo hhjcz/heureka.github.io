@@ -1,0 +1,17 @@
+/**
+ * Site header
+ */
+.site-header {
+  height: 320px;
+
+  background-image: url('/img/header.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: $background-color-header;
+}
+
+.site-header__a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

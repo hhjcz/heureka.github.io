@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="page-blog">
+
+    <h1>
+        Blog
+    </h1>
+
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li class="post-item">
+            <span class="post-item__date">
+                {{ post.date | date: "%Y-%m-%d" }}
+            </span>
+
+            <h2 class="post-item__title">
+                <a class="post-item__link" href="{{ post.url | prepend: site.baseurl }}">
+                    {{ post.title }}
+                </a>
+            </h2>
+
+            <p class="post-item__excerpt">
+                {{ post.excerpt | strip_html }}
+
+                {% for tag in post.tags %}
+                <span class="post-item__tag">
+                    #{{ tag }}
+                </span>
+                {% endfor %}
+            </p>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <p class="rss-subscribe">
+        Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+    </p>
+
+</div>

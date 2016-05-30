@@ -1,0 +1,40 @@
+/**
+ * Site page - blog
+ */
+.page-blog {
+  text-align: center;
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .description {
+    color: #808080;
+  }
+
+  .post-list {
+    text-align: left;
+    list-style: none;
+  }
+
+  .post-item {
+  }
+
+  .post-item__date {
+    font-size: 1.25em;
+    color: #a0a0a0;
+  }
+
+  .post-item__title {
+    display: inline;
+    font-size: 1.25em;
+    color: #808080;
+  }
+
+  .post-item__excerpt {
+  }
+
+  .post-item__tag {
+    color: #808080;
+  }
+}

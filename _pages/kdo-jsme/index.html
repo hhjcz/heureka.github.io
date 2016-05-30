@@ -1,0 +1,60 @@
+---
+layout: page
+title: Kdo jsme
+permalink: /kdo-jsme/
+---
+
+<article class="site-page page-about-us">
+
+    <div class="page-about-us__info">
+        <h2 class="site-page__title">
+            <!--V Heurece strkáme frontend do backendu jiného vývojáře-->
+        </h2>
+        <p class="site-page__description">
+            <!--TODO-->
+        </p>
+    </div>
+
+    <div class="page-about-us__team-wrapper">
+        <h2 class="site-page__title">
+            Vývojářské teamy v Heurece
+        </h2>
+        <p class="site-page__description">
+            <!--TODO-->
+        </p>
+
+        <div class="page-about-us__team-list">
+            {% for group in site.data.team %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+
+            <div class="page-about-us__team-group {% if loopindex == 1 %} is-cleared-left-mobile {% endif %}">
+                <div class="page-about-us__team-circle" style="background-color: {{ group.colorCode }};">
+                    {{ group.colorCode }}
+                </div>
+
+                <ul class="page-about-us__team-column">
+                    {% for member in group.members %}
+                    <li>
+                        {{ member }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            {% endfor %}
+        </div>
+    </div>
+
+
+    <div class="form-email">
+        <h2 class="site-page__title">
+            Pošli nám email a pracuj s námi
+        </h2>
+        <p class="site-page__description">
+            Pokud se necítíš nebo ti ještě nebylo 18, můžeme tě vyškolit na vývojáře v naší
+            <a href="/skolka/">školce</a>.
+        </p>
+        {% include form-email.html token=site.email_token_about_us source="about-us" %}
+    </div>
+
+</article>

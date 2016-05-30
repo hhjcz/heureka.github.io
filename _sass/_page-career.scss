@@ -1,0 +1,93 @@
+/**
+ * Site page - career
+ */
+.page-career {
+  text-align: center;
+
+  h3 {
+    color: #000000;
+  }
+}
+
+.page-career__info {
+  margin-bottom: 2em;
+}
+
+.page-career__list {
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 2em;
+  width: 80%;
+
+  @include mq-mobile-only {
+    width: 100%;
+  }
+}
+
+.page-career__item {
+  float: left;
+  clear: both;
+  margin-bottom: 0.5em;
+  width: 100%;
+}
+
+.page-career__title,
+.page-career__type,
+.page-career__place,
+.page-career__link {
+  float: left;
+}
+
+.page-career__title {
+  text-align: left;
+  font-weight: bold;
+  width: 40%;
+
+  @include mq-mobile-only {
+    width: 100%;
+  }
+}
+
+.page-career__type {
+  text-align: left;
+  color: #808080;
+  width: 20%;
+
+  @include mq-mobile-only {
+    box-sizing: border-box;
+    padding: 0 0.5em;
+    text-align: right;
+    width: 50%;
+  }
+}
+
+.page-career__place {
+  color: #808080;
+  width: 20%;
+
+  @include mq-mobile-only {
+    box-sizing: border-box;
+    padding: 0 0.5em;
+    text-align: left;
+    width: 50%;
+  }
+}
+
+.page-career__link {
+  text-align: right;
+  width: 20%;
+
+  @include mq-mobile-only {
+    width: 100%;
+  }
+}
+
+.page-career__perks {
+  margin: auto;
+  margin-bottom: 2em;
+  width: 70%;
+
+  @include mq-mobile-only {
+    width: 100%;
+  }
+}

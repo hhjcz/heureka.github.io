@@ -1,0 +1,58 @@
+<section class="site-social-media">
+    <div class="wrapper">
+
+        <div class="site-social-media__fullpane">
+            <h2 class="site-page__title">
+                Kromě Slacku používáme i Twitter a GitHub
+            </h2>
+            <div class="site-page__description">
+                <!--TODO: Stálých užitečných upravené existují. Šířily lépe rozkládá...-->
+            </div>
+        </div>
+
+        <div class="site-social-media__halfpane">
+            {% if site.twitter_username %}
+            <h3 class="site-social-media__title">
+                Twitter
+            </h3>
+            <div class="site-social-media__description">
+                Na Twitteru můžes sledovat, na čem děláme
+            </div>
+            {% include icon-twitter.html username=site.twitter_username %}
+            {% endif %}
+
+            <br /><br />
+
+            {% if site.github_username %}
+            <h3 class="site-social-media__title">
+                GitHub
+            </h3>
+            <div class="site-social-media__description">
+                A na GitHubu můžes sledovat, jak to děláme
+            </div>
+            {% include icon-github.html username=site.github_username %}
+            {% endif %}
+
+            <br /><br />
+
+            {% if site.youtube_username %}
+            <h3 class="site-social-media__title">
+                YouTube
+            </h3>
+            <div class="site-social-media__description">
+                Na život se musí chytře ;)
+            </div>
+            {% include icon-youtube.html username=site.youtube_username %}
+            {% endif %}
+        </div>
+
+        <div class="site-social-media__halfpane">
+
+            <div id="twitter-timeline">
+                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/HeurekaDevs" data-widget-id="735134720036634625">Tweets by @HeurekaDevs</a>
+            </div>
+
+        </div>
+
+    </div>
+</section>

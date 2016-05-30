@@ -1,0 +1,42 @@
+/**
+ * Site post
+ */
+.site-post {
+  overflow: hidden;
+}
+
+.site-post__wrapper {
+  float: left;
+  width: 80%;
+
+  @include mq-mobile-only {
+    width: 100%;
+  }
+}
+
+.site-post__discussion {
+
+}
+
+.site-post__tagcloud {
+  float: left;
+  padding: 0 1em;
+  box-sizing: border-box;
+  width: 20%;
+
+  @include mq-mobile-only {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+.site-post__hr {
+  clear: both;
+  border-width: 0;
+  border-top: 1px solid #d0d0d0;
+  margin: 2em 0 1em 0;
+}
+
+.site-post__tags {
+  list-style: none;
+}

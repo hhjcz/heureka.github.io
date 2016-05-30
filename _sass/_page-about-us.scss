@@ -1,0 +1,44 @@
+/**
+ * Site page - about us
+ */
+.page-about-us {
+  text-align: center;
+}
+
+.page-about-us__info {
+  margin-bottom: 2em;
+}
+
+.page-about-us__team-wrapper {
+  margin-bottom: 2em;
+  overflow: hidden;
+}
+
+.page-about-us__team-list {
+  margin: auto;
+  margin-top: 2em;
+}
+
+.page-about-us__team-group {
+  margin: auto;
+  float: left;
+  width: 25%;
+
+  @include mq-mobile-only {
+    width: 50%;
+  }
+}
+
+.page-about-us__team-circle {
+  border-radius: 50%;
+  margin: auto;
+  line-height: 5em;
+  color: #ffffff;
+  width: 5em;
+  height: 5em;
+}
+
+.page-about-us__team-column {
+  margin: 1em 0;
+  list-style: none;
+}

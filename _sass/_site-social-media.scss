@@ -1,0 +1,46 @@
+/**
+ * Social media
+ */
+.site-social-media {
+}
+
+.site-social-media__fullpane {
+  text-align: center;
+  margin: 2em 0;
+  width: 100%;
+
+  @include mq-mobile-only() {
+    margin-bottom: 1em;
+  }
+}
+
+.site-social-media__halfpane {
+  float: left;
+  margin-bottom: 2em;
+  width: 50%;
+
+  @include mq-mobile-only() {
+    width: 100%;
+  }
+}
+
+.site-social-media__title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.site-social-media__description {
+  color: #808080;
+}
+
+.site-social-media__twitter {
+  color: #0084b4 !important;
+}
+
+.site-social-media__github {
+  color: #000000 !important;
+}
+
+.site-social-media__youtube {
+  color: #e52d27 !important;
+}

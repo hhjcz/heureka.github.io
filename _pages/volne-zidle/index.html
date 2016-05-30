@@ -1,0 +1,68 @@
+---
+layout: page
+title: Volné židle
+permalink: /volne-zidle/
+---
+
+<article class="site-page page-career">
+
+    <div class="info">
+        <h2 class="site-page__title">
+            Volné židle
+        </h2>
+        <p class="site-page__description">
+            <!--TODO-->
+        </p>
+    </div>
+
+    <div class="page-career__list">
+        {% for job in site.data.career %}
+        <div class="page-career__item">
+            <div class="page-career__title">
+                {{ job.title }}
+            </div>
+            <div class="page-career__type">
+                {{ job.type }}
+            </div>
+            <div class="page-career__place">
+                {{ job.place }}
+            </div>
+            <div class="page-career__link">
+                <a href="{{ job.link }}" target="_blank">
+                    Chci vědět víc
+                </a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="page-career__perks">
+        <h2 class="site-page__title">
+            Co nabízíme?
+        </h2>
+        <p class="site-page__description">
+            #relaxacnizony
+            #cafeteria
+            #vzdelavani
+            #konference
+            #teambuilding
+            #terasa
+            #fotbalek
+            #xbox
+            #stravenky
+            #obcerstveni
+            #grilovani
+            #ovoce
+        </p>
+    </div>
+
+
+    <div class="form-email">
+        <h2 class="site-page__title">
+            Pošli nám svůj email a dáme ti vědět víc
+        </h2>
+        <p class="site-page__description"></p>
+        {% include form-email.html token=site.email_token_career source="academy" %}
+    </div>
+
+</article>

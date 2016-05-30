@@ -1,0 +1,17 @@
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin mq-mobile-only() {
+    @media screen and (max-width: $width-mobile-max) {
+        @content;
+    }
+}
+
+@mixin mq-desktop-only() {
+    @media screen and (min-width: $width-desktop-min) {
+        @content;
+    }
+}

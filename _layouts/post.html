@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<article class="site-post" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="site-post__wrapper">
+        <header class="site-post__header">
+            <h1 class="site-page__title" itemprop="name headline">
+                {{ page.title }}
+            </h1>
+
+            <p class="site-post__meta">
+                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {{ page.date | date: "%Y-%m-%d" }}
+                </time>
+                {% if page.author %}
+                -
+                <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    <span itemprop="name">
+                        {{ page.author }}
+                    </span>
+                </span>
+                {% endif %}
+            </p>
+        </header>
+
+        <div class="site-post__content" itemprop="articleBody">
+            {{ content }}
+        </div>
+
+        <div class="site-post__discussion">
+            <!--TODO-->
+        </div>
+    </div>
+
+    <div class="site-post__tagcloud">
+        <h2 class="site-page__title">
+            Tagy
+        </h2>
+        <ul class="site-post__tags">
+            {% for tag in page.tags %}
+            <li class="site-post__tag">
+                #{{ tag }}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+</article>
+
+<hr class="site-post__hr"/>

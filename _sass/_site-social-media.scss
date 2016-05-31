@@ -6,7 +6,6 @@
 
 .site-social-media__fullpane {
     text-align: center;
-    margin: 2em 0;
     width: 100%;
 
     @include mq-mobile-only() {
@@ -16,7 +15,6 @@
 
 .site-social-media__halfpane {
     float: left;
-    margin-bottom: 2em;
     width: 50%;
 
     @include mq-mobile-only() {

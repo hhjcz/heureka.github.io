@@ -1,0 +1,24 @@
+/**
+ * Component - <hr>
+ */
+.c-hr {
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.c-hr__hr {
+    padding: 2.5em 0;
+}
+
+.c-hr__hr--condensed {
+    padding: 0;
+}
+
+
+.c-hr__hr--list {
+    padding: 1em 0;
+}
+
+.u-hr--is-left {
+    text-align: left;
+}

@@ -16,7 +16,6 @@
 .page-career__list {
     overflow: hidden;
     margin: auto;
-    margin-bottom: 2em;
     width: 80%;
 
     @include mq-mobile-only {
@@ -27,7 +26,6 @@
 .page-career__item {
     float: left;
     clear: both;
-    margin-bottom: 0.5em;
     width: 100%;
 }
 
@@ -86,7 +84,6 @@
 
 .page-career__perks {
     margin: auto;
-    margin-bottom: 2em;
     width: 70%;
 
     @include mq-mobile-only {

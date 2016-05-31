@@ -6,13 +6,12 @@
 }
 
 .page-academy__info {
-    margin-bottom: 2em;
+
 }
 
 .page-academy__how-to {
     margin: auto;
-    margin-bottom: 2em;
-    width: 60%;
+    width: 70%;
 
     @include mq-mobile-only {
         width: 100%;
@@ -26,8 +25,14 @@
 }
 
 .page-academy__icon {
-    width: 5em;
-    height: 5em;
+    padding-top: 0.5em;
+    text-align: left;
+    font-size: 0.6125em;
+    width: 14em;
+}
+
+.page-academy__code {
+    color: #30a9d4;
 }
 
 .page-academy__title {

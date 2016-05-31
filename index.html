@@ -31,6 +31,10 @@ layout: default
                 {% endfor %}
             </p>
         </li>
+        {% if forloop.last == false %}
+        {% include site-hr.html type="list" align="left" %}
+        {% endif %}
+
         {% endfor %}
     </ul>
 

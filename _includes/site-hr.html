@@ -1,0 +1,28 @@
+{% if include.type == 'condensed' %}
+{% comment %} Used inside wrapper {% endcomment %}
+<div class="c-hr {% if include.align == 'left' %} u-hr--is-left {% endif %}">
+    <div class="c-hr__hr c-hr__hr--condensed">
+        &lt;hr&gt;
+    </div>
+</div>
+
+
+{% elsif include.type == 'list' %}
+{% comment %} Used inside lists {% endcomment %}
+<li class="c-hr {% if include.align == 'left' %} u-hr--is-left {% endif %}">
+    <div class="c-hr__hr c-hr__hr--list">
+        &lt;hr&gt;
+    </div>
+</li>
+
+
+{% else %}
+{% comment %} Base hr - used outside wrapper {% endcomment %}
+<section class="c-hr {% if include.align == 'left' %} u-hr--is-left {% endif %}">
+    <div class="wrapper">
+        <div class="c-hr__hr">
+            &lt;hr&gt;
+        </div>
+    </div>
+</section>
+{% endif %}

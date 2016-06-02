@@ -8,24 +8,24 @@ layout: default
         Blog
     </h1>
 
-    <ul class="post-list">
+    <ul class="page-blog__post-list">
         {% for post in site.posts %}
-        <li class="post-item">
-            <span class="post-item__date">
+        <li class="page-blog__post-item">
+            <span class="page-blog__post-date">
                 {{ post.date | date: "%Y-%m-%d" }}
             </span>
 
-            <h2 class="post-item__title">
+            <h2 class="page-blog__post-title">
                 <a class="post-item__link" href="{{ post.url | prepend: site.baseurl }}">
                     {{ post.title }}
                 </a>
             </h2>
 
-            <p class="post-item__excerpt">
+            <p class="page-blog__post-excerpt">
                 {{ post.excerpt | strip_html }}
 
                 {% for tag in post.tags %}
-                <span class="post-item__tag">
+                <span class="page-blog__post-tag">
                     #{{ tag }}
                 </span>
                 {% endfor %}

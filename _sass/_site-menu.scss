@@ -15,12 +15,8 @@
     float: left;
 
     &:hover,
-    &.active {
+    &.is-active {
         text-decoration: none;
-
-        .site-title__selector {
-            display: inline;
-        }
     }
 }
 
@@ -42,17 +38,15 @@
     display: none;
     font-weight: bold;
     color: #60a000;
+
+    .site-title:hover &,
+    .site-title:focus & {
+        display:inline;
+    }
 }
 
 .site-nav {
     float: right;
-
-    @include mq-mobile-only() {
-        &:hover .site-nav__trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-    }
 }
 
 .site-nav__icon {
@@ -78,6 +72,11 @@
             clear: both;
             margin-top: 1em;
         }
+
+        .site-nav:hover & {
+            display: block;
+            padding-bottom: 0.5rem;
+        }
     }
 }
 
@@ -101,7 +100,7 @@
     }
 
     &:hover,
-    &.active {
+    &.is-active {
         text-decoration: underline;
     }
 }

@@ -36,7 +36,7 @@ permalink: /volne-zidle/
             </div>
         </div>
         {% if forloop.last == false %}
-            {% include site-hr.html type="condensed" %}
+        {% include site-hr.html type="condensed" %}
         {% endif %}
 
         {% endfor %}
@@ -49,18 +49,14 @@ permalink: /volne-zidle/
             Co nabízíme?
         </h2>
         <p class="site-page__description">
-            #relaxacnizony
-            #cafeteria
-            #vzdelavani
-            #konference
-            #teambuilding
-            #terasa
-            #fotbalek
-            #xbox
-            #stravenky
-            #obcerstveni
-            #grilovani
-            #ovoce
+        <ul>
+            {% for perk in site.data.perks %}
+            <li class="page-career__perk">
+               #{{ perk }}
+            </li>
+            {% endfor %}
+        </ul>
+
         </p>
     </div>
 

@@ -1,9 +1,10 @@
 <div class="form-email">
     <form action="https://getsimpleform.com/messages?form_api_token={{ include.token }}" method="post">
-        <input type='hidden' name='redirect_to' value='{{ site.url }}/parada'/>
-        <input type='hidden' name='source' value='{{ include.type }}'/>
+        <input type="hidden" name="redirect_to" value="{{ site.url }}/parada"/>
+        <input type="hidden" name="source" value="{{ include.type }}"/>
         <input type="email" class="form-email__email" placeholder="jan.novak@heurekadevs.cz" required/>
-        <br/>
-        <input type="submit" class="form-email__submit" value="Odeslat"/>
+        <p>
+            <input type="submit" class="form-email__submit" value="Odeslat"/>
+        </p>
     </form>
 </div>

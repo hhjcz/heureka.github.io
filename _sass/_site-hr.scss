@@ -1,24 +1,24 @@
 /**
  * Component - <hr>
  */
-.c-hr {
+.c-separator {
     text-align: center;
     color: #e0e0e0;
 }
 
-.c-hr__hr {
+.c-separator__hr {
     padding: 2.5em 0;
 }
 
-.c-hr__hr--condensed {
+.c-separator__hr--condensed {
     padding: 0;
 }
 
 
-.c-hr__hr--list {
+.c-separator__hr--list {
     padding: 1em 0;
 }
 
-.u-hr--is-left {
+.u-separator--is-left {
     text-align: left;
 }

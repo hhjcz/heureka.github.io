@@ -32,6 +32,14 @@
 }
 
 .page-academy__code {
+    margin: 0;
+}
+
+.page-academy__code--is-doctype {
+    color: #000000;
+}
+
+.page-academy__code--is-dom {
     color: #30a9d4;
 }
 

@@ -6,7 +6,7 @@
             <span class="site-title__bracket">&lt;</span>
             <span class="site-title__tagname">HeurekaDevs</span><span class="site-title__selector">:hover</span>
             {% if page.url == '/' %}
-            <span class="site-title__attribute"> class="active"</span>
+            <span class="site-title__attribute"> class="is-active"</span>
             {% endif %}
             <span class="site-title__bracket">&frasl;&gt;</span>
         </a>
@@ -22,12 +22,12 @@
 
             <ul class="site-nav__trigger">
                 <li class="site-nav__item">
-                    <a class="site-nav__link {% if page.url == '/' %} active {% endif %} " href="{{ site.baseurl }}/">Blog</a>
+                    <a class="site-nav__link {% if page.url == '/' %} is-active {% endif %} " href="{{ site.baseurl }}/">Blog</a>
                 </li>
                 {% for pageItem in site.pages %}
                 {% if (pageItem.title) and (pageItem.hiddenFromMenu != 'yes') %}
                 <li class="site-nav__item">
-                    <a class="site-nav__link {% if pageItem.url == page.url %} active {% endif %} " href="{{ pageItem.url | prepend: site.baseurl }}">{{ pageItem.title }}</a>
+                    <a class="site-nav__link {% if pageItem.url == page.url %} is-active {% endif %} " href="{{ pageItem.url | prepend: site.baseurl }}">{{ pageItem.title }}</a>
                 </li>
                 {% endif %}
                 {% endfor %}

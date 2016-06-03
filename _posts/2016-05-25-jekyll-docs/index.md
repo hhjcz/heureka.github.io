@@ -3,7 +3,8 @@ layout: post
 title: "Jekyll docs"
 permalink: /jekyll-docs/
 date: 2016-05-25 00:00:00 +0200
-tags: jekyll
+author: Jekyll team
+tags: jekyll documentation
 ---
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll.
 

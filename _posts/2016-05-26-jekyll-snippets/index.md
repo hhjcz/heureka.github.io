@@ -3,7 +3,8 @@ layout: post
 title: "Jekyll snippets"
 permalink: /jekyll-snippets/
 date: 2016-05-26 00:00:00 +0200
-tags: jekyll
+author: Jekyll team
+tags: jekyll snippets
 ---
 Jekyll also offers powerful support for code snippets:
 

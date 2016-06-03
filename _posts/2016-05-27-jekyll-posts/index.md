@@ -3,8 +3,8 @@ layout: post
 title: "Jekyll posts"
 permalink: /jekyll-posts/
 date: 2016-05-27 00:00:00 +0200
-author: Peta Sittek
-tags: jekyll
+author: Jekyll team
+tags: jekyll posts
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

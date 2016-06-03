@@ -14,5 +14,4 @@
 * Check and improve copy
 * Floating/fixed menu (desktop)
 * Consider fixed menu (mobile)
-* Implement tags page
 * Add Google Analytics

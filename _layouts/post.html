@@ -40,7 +40,9 @@ layout: default
         <ul class="site-post__tags">
             {% for tag in page.tags %}
             <li class="site-post__tag">
-                #{{ tag }}
+                <a href="/tagy#{{ tag | cgi_escape }}">
+                    #{{ tag }}
+                </a>
             </li>
             {% endfor %}
         </ul>

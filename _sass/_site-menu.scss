@@ -2,13 +2,28 @@
  * Site menu - title, nav
  */
 .site-menu {
-    margin-bottom: 2em;
     padding: 2em 0;
     border-bottom: 1px solid $grey-color-light;
+    background: #ffffff;
+    position: relative;
+    z-index: 10;
 
     @include mq-mobile-only() {
         padding: 1em 0 0.5em 0;
     }
+
+    //body.has-menu-fixed & {
+    &.is-fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+body.has-menu-fixed {
+    //padding-top: 89px;
+    //padding-top: 51px;
 }
 
 .site-title {
@@ -41,7 +56,7 @@
 
     .site-title:hover &,
     .site-title:focus & {
-        display:inline;
+        display: inline;
     }
 }
 

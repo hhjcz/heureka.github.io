@@ -4,7 +4,7 @@
 .site-menu {
     padding: 2em 0;
     border-bottom: 1px solid $grey-color-light;
-    background: #ffffff;
+    background: $background-color;
     position: relative;
     z-index: 10;
 
@@ -12,7 +12,6 @@
         padding: 1em 0 0.5em 0;
     }
 
-    //body.has-menu-fixed & {
     &.is-fixed {
         position: fixed;
         top: 0;
@@ -21,13 +20,12 @@
     }
 }
 
-body.has-menu-fixed {
-    //padding-top: 89px;
-    //padding-top: 51px;
-}
-
 .site-title {
     float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 85%;
 
     &:hover,
     &.is-active {
@@ -60,37 +58,44 @@ body.has-menu-fixed {
     }
 }
 
-.site-nav {
-    float: right;
-}
-
-.site-nav__icon {
+.site-nav-icon {
     display: block;
     float: right;
+    transition: all 500ms ease;
 
     @include mq-desktop-only() {
         display: none;
     }
+
+    &.is-active {
+        transform: rotate(-90deg);
+    }
 }
 
-.site-nav__svg {
+.site-nav-icon__svg {
     width: 1.5em;
+}
+
+.site-nav {
+    float: right;
+
+    @include mq-mobile-only() {
+        clear: both;
+    }
 }
 
 .site-nav__trigger {
     margin: 0;
 
     @include mq-mobile-only() {
-        & {
-            display: none;
-            float: right;
-            clear: both;
-            margin-top: 1em;
-        }
+        display: none;
+        float: right;
+        clear: both;
+        margin-top: 1em;
+        padding-bottom: 0.5rem;
 
-        .site-nav:hover & {
+        &.is-active {
             display: block;
-            padding-bottom: 0.5rem;
         }
     }
 }

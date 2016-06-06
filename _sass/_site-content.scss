@@ -1,13 +1,10 @@
 /**
  * Site content
  */
-$site-content-padding: 2em;
-$site-content-slip-amount: 3em; // prevents menu relative/fixed transition flickering (black/white) by slipping a bit of content under it
-
 .site-content {
     position: relative;
     top: -$site-content-slip-amount;
     margin-bottom: -$site-content-slip-amount;
     padding-top: $site-content-slip-amount + $site-content-padding;
-    background: #ffffff;
+    background: $background-color;
 }

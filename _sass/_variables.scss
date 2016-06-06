@@ -14,7 +14,9 @@ $brand-color: #2a7ae2;
 
 $grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark: darken($grey-color, 25%);
+
+$site-content-padding: 2em;
+$site-content-slip-amount: 3em; // prevents menu relative/fixed transition flickering (black/white) by slipping a bit of content under it
 
 // Width of the content area
 $content-width: 60em;

@@ -19,12 +19,13 @@
 }
 
 .page-academy__item {
-    display: flex;
+    overflow: hidden;
     justify-content: center;
     width: 100%;
 }
 
 .page-academy__icon {
+    float: left;
     padding-top: 0.5em;
     text-align: left;
     font-size: 0.6125em;
@@ -43,15 +44,16 @@
     color: #30a9d4;
 }
 
+.page-academy__description {
+    float: left;
+    text-align: left;
+    padding-left: 1em;
+    color: #808080;
+    width: calc(100% - 14em);
+}
+
 .page-academy__title {
     margin: 0;
     font-weight: bold;
     color: #000000;
-}
-
-.page-academy__description {
-    text-align: left;
-    padding-left: 1em;
-    color: #808080;
-    width: 100%;
 }

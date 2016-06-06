@@ -12,4 +12,3 @@
 # TODO
 
 * Check and improve copy
-* Add Google Analytics

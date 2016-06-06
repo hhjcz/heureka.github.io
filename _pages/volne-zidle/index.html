@@ -15,7 +15,7 @@ permalink: /volne-zidle/
         </p>
     </div>
 
-    {% include site-hr.html %}
+    {% include site-separator.html %}
 
     <div class="page-career__list">
         {% for job in site.data.career %}
@@ -36,13 +36,13 @@ permalink: /volne-zidle/
             </div>
         </div>
         {% if forloop.last == false %}
-        {% include site-hr.html type="condensed" %}
+        {% include site-separator.html type="condensed" %}
         {% endif %}
 
         {% endfor %}
     </div>
 
-    {% include site-hr.html %}
+    {% include site-separator.html %}
 
     <div class="page-career__perks">
         <h2 class="site-page__title">
@@ -60,7 +60,7 @@ permalink: /volne-zidle/
         </p>
     </div>
 
-    {% include site-hr.html %}
+    {% include site-separator.html %}
 
     <div>
         <h2 class="site-page__title">

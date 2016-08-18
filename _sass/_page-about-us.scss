@@ -20,7 +20,7 @@
 .page-about-us__team-group {
     margin: auto;
     float: left;
-    width: 20%;
+    width: calc(100% / 6);
 
     @include mq-mobile-only {
         width: 50%;

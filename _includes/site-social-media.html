@@ -27,9 +27,21 @@
                 GitHub
             </h3>
             <div class="site-social-media__description">
-                A na GitHubu můžes sledovat, jak to děláme
+                Na GitHubu můžes sledovat, jak to děláme
             </div>
             {% include icon-github.html username=site.github_username %}
+            {% endif %}
+
+            <br/><br/>
+
+            {% if site.instagram_username %}
+            <h3 class="site-social-media__title">
+                Instagram
+            </h3>
+            <div class="site-social-media__description">
+                A na Instagramu, že se u toho i skvěle bavíme
+            </div>
+            {% include icon-instagram.html username=site.instagram_username %}
             {% endif %}
 
             <br/><br/>

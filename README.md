@@ -7,8 +7,3 @@
 # Deploy!
 
 * Get your PRs merged
-
-
-# TODO
-
-* Check and improve copy

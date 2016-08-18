@@ -5,6 +5,7 @@
     - "David Šanda"
     - "Jan Navrátil"
     - "Jaroslav Jakoubě"
+    - "Oldřich Taufer"
 
 
 - nameEn: "green"
@@ -12,7 +13,7 @@
   colorCode: "#008000"
   members:
     - "Martin Vozník"
-    - "Michal Humpala"
+    - "Michal Humpula"
     - "Vít Bartůněk"
 
 
@@ -29,9 +30,17 @@
   nameCs: "modří"
   colorCode: "#0000ff"
   members:
-    - "Filip Melík"
     - "Jakub Chábek"
     - "Jan Kahoun"
+    - "Miroslav Hlávka"
+
+
+- nameEn: "gray"
+  nameCs: "šedí"
+  colorCode: "#aaaaaa"
+  members:
+    - "Filip Melík"
+    - "Peter Wojtovič"
 
 
 - nameEn: "black"

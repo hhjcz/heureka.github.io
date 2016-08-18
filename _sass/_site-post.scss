@@ -3,6 +3,14 @@
  */
 .site-post {
     overflow: hidden;
+
+    /** Disable headline wrappers */
+    h1, h2 {
+        &:before,
+        &:after {
+            content: '';
+        }
+    }
 }
 
 .site-post__wrapper {

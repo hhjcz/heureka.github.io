@@ -1,39 +1,43 @@
 - nameEn: "red"
   nameCs: "červení"
-  colorCode: "#9c1614"
+  colorCode: "#ff0000"
   members:
-    - "Jan Navrátil"
-    - "Michal Kožuch"
     - "David Šanda"
+    - "Jan Navrátil"
     - "Jaroslav Jakoubě"
 
 
 - nameEn: "green"
   nameCs: "zelení"
-  colorCode: "#1ab04c"
+  colorCode: "#008000"
   members:
-    - "Vít Bartůněk"
+    - "Martin Vozník"
     - "Michal Humpala"
+    - "Vít Bartůněk"
 
 
 - nameEn: "purple"
   nameCs: "fialoví"
-  colorCode: "#6600ff"
+  colorCode: "#800080"
   members:
-    - "Peter Varga"
-    - "Vít Novák"
-    - "Adam Havel"
-    - "Vladimír Kašpar"
     - "Jakub Krčma"
-    - "Pavel Škoda"
-    - "Martin Vozník"
-    - "Petr Sittek"
+    - "Vít Novák"
+    - "Vladimír Kašpar"
 
 
 - nameEn: "blue"
   nameCs: "modří"
-  colorCode: "#30a9d4"
+  colorCode: "#0000ff"
   members:
     - "Filip Melík"
-    - "Jan Kahoun"
     - "Jakub Chábek"
+    - "Jan Kahoun"
+
+
+- nameEn: "black"
+  nameCs: "černí"
+  colorCode: "#000000"
+  members:
+    - "Adam Havel"
+    - "Pavel Škoda"
+    - "Petr Sittek"

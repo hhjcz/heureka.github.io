@@ -20,6 +20,35 @@ ul, ol, dl, figure,
 }
 
 /**
+ * Headlines wrappers
+ */
+h1, h2 {
+    &:before, &:after {
+        color: #e0e0e0;
+    }
+}
+
+h1 {
+    &:before {
+        content: '<h1>';
+    }
+
+    &:after {
+        content: '</h1>';
+    }
+}
+
+h2 {
+    &:before {
+        content: '<h2>';
+    }
+
+    &:after {
+        content: '</h2>';
+    }
+}
+
+/**
  * Images
  */
 img {

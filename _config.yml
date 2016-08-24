@@ -1,10 +1,7 @@
 # Site settings
 title: HeurekaDevs
 email: todo@heureka.cz
-description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Vojáci vývoje bránící čistotu kódu v Heurece
 baseurl: "" # the subpath of the site
 url: "http://www.heurekadevs.cz" # the base hostname & protocol for the site
 
@@ -25,3 +22,4 @@ markdown: kramdown
 # Additional settings
 include: ["_pages"] # to have pages in separate dir
 permalink: /:title/ # build URL from title if no permalink supplied
+

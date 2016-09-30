@@ -12,9 +12,9 @@ youtube_username: heureka
 instagram_username: heurekacz
 
 # Emailing via getsimpleform.com
-email_token_about_us: a7ffa4332b70ffb1d036f14465e5e722
-email_token_academy: a7ffa4332b70ffb1d036f14465e5e722
-email_token_career: a7ffa4332b70ffb1d036f14465e5e722
+email_token_about_us: 491e7e7ec2427a434fff3e715a8c20f2
+email_token_academy: 491e7e7ec2427a434fff3e715a8c20f2
+email_token_career: 491e7e7ec2427a434fff3e715a8c20f2
 
 # Build settings
 markdown: kramdown

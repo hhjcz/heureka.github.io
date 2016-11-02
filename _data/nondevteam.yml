@@ -1,0 +1,20 @@
+- nameEn: "agile"
+  nameCs: "agile"
+  title: "#agile"
+  members:
+    - "Jana Kasáková"
+    - "Peter Varga"
+    - "Jiří Vích"
+
+- nameEn: "boss"
+  nameCs: "boss"
+  title: "#boss"
+  members:
+    - "Marek Beniak"
+
+- nameEn: "it"
+  nameCs: "it"
+  title: "#it"
+  members:
+    - "Petr Novotný"
+    - "David Příplata"

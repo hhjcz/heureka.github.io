@@ -44,6 +44,34 @@ permalink: /kdo-jsme/
         </div>
     </div>
 
+    <div class="page-about-us__team-wrapper">
+        <h2 class="site-page__title">
+            Nevývojářské týmy v Heurece
+        </h2>
+        <p class="site-page__description"></p>
+
+        <div class="page-about-us__team-list">
+            {% for group in site.data.nondevteam %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+
+            <div class="page-about-us__team-group {% if loopindex == 1 %} is-cleared-left-mobile {% endif %}">
+                <div class="page-about-us__nondevteam-circle">
+                    {{ group.title }}
+                </div>
+
+                <ul class="page-about-us__team-column">
+                    {% for member in group.members %}
+                    <li>
+                        {{ member }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            {% endfor %}
+        </div>
+    </div>
+
     {% include site-separator.html %}
 
 

@@ -2,6 +2,7 @@
   nameCs: "červení"
   colorCode: "#ff0000"
   members:
+    - "David Němec"
     - "David Šanda"
     - "Jan Navrátil"
     - "Jaroslav Jakoubě"
@@ -22,6 +23,7 @@
   colorCode: "#800080"
   members:
     - "Jakub Krčma"
+    - "Martin Klimek"
     - "Vít Novák"
     - "Vladimír Kašpar"
 
@@ -40,6 +42,7 @@
   colorCode: "#aaaaaa"
   members:
     - "Filip Melík"
+    - "Jiří Mertin"
     - "Peter Wojtovič"
 
 
@@ -50,3 +53,4 @@
     - "Adam Havel"
     - "Pavel Škoda"
     - "Peta Sittek"
+    - "Petr Šedivý"

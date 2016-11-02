@@ -3,8 +3,8 @@
   title: "#agile"
   members:
     - "Jana Kasáková"
-    - "Peter Varga"
     - "Jiří Vích"
+    - "Peter Varga"
 
 - nameEn: "boss"
   nameCs: "boss"
@@ -16,5 +16,5 @@
   nameCs: "it"
   title: "#it"
   members:
-    - "Petr Novotný"
     - "David Příplata"
+    - "Petr Novotný"

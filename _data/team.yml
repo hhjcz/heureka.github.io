@@ -2,11 +2,11 @@
   nameCs: "červení"
   colorCode: "#ff0000"
   members:
+    - "David Němec"
     - "David Šanda"
     - "Jan Navrátil"
     - "Jaroslav Jakoubě"
     - "Oldřich Taufer"
-    - "David Němec"
 
 
 - nameEn: "green"
@@ -23,9 +23,9 @@
   colorCode: "#800080"
   members:
     - "Jakub Krčma"
+    - "Martin Klimek"
     - "Vít Novák"
     - "Vladimír Kašpar"
-    - "Martin Klimek"
 
 
 - nameEn: "blue"
@@ -42,8 +42,8 @@
   colorCode: "#aaaaaa"
   members:
     - "Filip Melík"
-    - "Peter Wojtovič"
     - "Jiří Mertin"
+    - "Peter Wojtovič"
 
 
 - nameEn: "black"

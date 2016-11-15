@@ -26,6 +26,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     max-width: 85%;
+    text-decoration: none;
 
     &:hover,
     &.is-active {
@@ -112,6 +113,7 @@
 .site-nav__link {
     padding: 0 1em;
     color: #313131 !important;
+    text-decoration: none;
 
     @include mq-mobile-only() {
         display: block;

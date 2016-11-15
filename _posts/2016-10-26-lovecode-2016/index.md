@@ -7,7 +7,7 @@ author: Peter Varga
 tags: hackathon lovecode networking
 ---
 
-HeurekaDevs byli, jsou a budou vždy pro každou špatnost. Adam Sobotka ze [SocialBakers][socialbakers] nás zhruba dva měsíce zpátky s jednou takovou oslovil a my jsme si řekli "Jdeme do toho!". A tak vzniknul [{"Love":"Code"} 2016][lovecode]. Akce určená všem vývojářům, kteří si rádi svoji každodenní práci okoření něčím zajímavým. Třeba víkendem stráveným v okruhu podobných "bláznů", co si rádi osahají nové technologie na reálném projektu a potkají u toho spousty zajímavých lidí. 
+HeurekaDevs byli, jsou a budou vždy pro každou špatnost. Adam Sobotka ze [SocialBakers][socialbakers] nás zhruba dva měsíce zpátky s jednou takovou oslovil a my jsme si řekli „Jdeme do toho!“. A tak vzniknul [{"Love":"Code"} 2016][lovecode]. Akce určená všem vývojářům, kteří si rádi svoji každodenní práci okoření něčím zajímavým. Třeba víkendem stráveným v okruhu podobných „bláznů“, co si rádi osahají nové technologie na reálném projektu a potkají u toho spousty zajímavých lidí.
 
 LoveCode je určen všem těm, kteří by si chtěli vyzkoušet vytvořit aplikaci, která zkombinuje sociální média s umělou inteligencí. Pokud jste nic podobného nedělali, není se čeho bát, mentoři z partnerských firem budou vždy po ruce, aby pomohli. Za Heureku budete mít možnost potkat [Kubu Chábka][grongor], který pomůže v oblasti Redisu.
 

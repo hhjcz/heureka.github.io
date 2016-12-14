@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Ikony na webu"
-permalink: /ikony-na-webu/
+title: "Ikony bez kompromisů"
+permalink: /ikony-bez-kompromisu/
 date: 2016-11-15 13:00:00 +0200
 author: Adam Havel
-tags: front-end web
+tags: front-end web development
 ---
 
 
-I přes svou malou velikost představují ikony na webu zajímavý problém. Jeden přístup střídá další — každý o trochu lepší než ten předchozí, každý nějakým způsobem nedokonalý. Poslední systém, kterému se delší dobu daří držet navrcholu, je takzvaný SVG sprite, který vznikne tak, že jednotlivé ikony vložíme do elementů `symbol` v rámci jednoho SVG souboru. Důvodem pro použití symbolů je to, že se nevykreslí v místě definice, ale až tehdy, kdy je skutečně použijeme. Pokud takový sprite nechceme vytvářet ručně, lze použít některé z mnoha dostupných řešení, jako je [grunt-svgstore][grunt-svgstore] nebo [gulp-svg-sprite][gulp-svg-sprite].
+I přes svou malou velikost představují ikony na webu zajímavý problém. Jeden přístup střídá další — každý o trochu lepší než ten předchozí, každý nějakým způsobem nedokonalý. Poslední systém, kterému se delší dobu daří držet na vrcholu, je takzvaný SVG sprite, který vznikne tak, že jednotlivé ikony vložíme do elementů `symbol` v rámci jednoho SVG souboru. Důvodem pro použití symbolů je to, že se nevykreslí v místě definice, ale až tehdy, kdy je skutečně použijeme. Pokud takový sprite nechceme vytvářet ručně, lze použít některé z mnoha dostupných řešení, jako je [grunt-svgstore][grunt-svgstore] nebo [gulp-svg-sprite][gulp-svg-sprite].
 
 {% highlight html %}
 <svg>
@@ -30,7 +30,7 @@ Pro vykreslení konkrétní ikonky stačí přímo do šablony napsat jeden řá
 
 ## Nahrání spritu
 
-Ve skutečnosti je to však o trochu složitější, protože žádná verze Internet Exploreru (narozdíl od Edge) nedokáže nahrát externí soubor přes `xlink:href`. Řešení jsou dvě: buď sprite vložíme přímo do všech šablon, nebo použijeme AJAX. První případ lze sice řešit automaticky na straně serveru, ale to nás nezbaví problému cachování dvou nezávislých souborů jako jednoho. Druhá možnost spočívá v použití malého skriptu, který dáme do hlavičky v šabloně; krom ikon ho lze využít i na ostatní nekritické soubory, třeba fonty.
+Ve skutečnosti je to však o trochu složitější, protože žádná verze Internet Exploreru (na rozdíl od Edge) nedokáže nahrát externí soubor přes `xlink:href`. Řešení jsou dvě: buď sprite vložíme přímo do všech šablon, nebo použijeme AJAX. První případ lze sice řešit automaticky na straně serveru, ale to nás nezbaví problému cachování dvou nezávislých souborů jako jednoho. Druhá možnost spočívá v použití malého skriptu, který dáme do hlavičky v šabloně; krom ikon ho lze využít i na ostatní nekritické soubory, třeba fonty.
 
 {% highlight javascript %}
 (function(w) {
@@ -80,9 +80,9 @@ Ve skutečnosti je to však o trochu složitější, protože žádná verze Int
 })(window);
 {% endhighlight %}
 
-Funkce po zavolání asynchronně načte zadaný soubor. Jeho obsah pak zároveň uloží do `localStorage`, a vloží do šablony — styly v podobě `style` elementu, SVG soubory přímo do hlavičky. V druhém případě by jistě bylo lepší cílit na tělo dokumentu, ale to v momentu zavolání funkce ještě neexistuje. SVG sice není standardní součastí `head`, ale podstatné je, že předchozí metoda funguje.
+Funkce po zavolání asynchronně načte zadaný soubor. Jeho obsah pak zároveň uloží do `localStorage`, a vloží do šablony — styly v podobě `style` elementu, SVG soubory přímo do hlavičky. V druhém případě by jistě bylo lepší cílit na tělo dokumentu, ale to v momentu zavolání funkce ještě neexistuje. SVG sice není standardní součástí `head`, ale podstatné je, že předchozí metoda funguje.
 
-Výhoda skriptu spočívá v tom, že jím načtené soubory neblokují vykreslení dokumentu. Má to ovšem jeden háček: ikony se nenačtou, pokud je JavaScript vyplý, a bohužel nevím o žádném řešení (jako je `noscript` v případě stylů), které nevyžaduje, aby byl sprite dopředu součástí dokumentu. Závěrem je, že na ikony není spoleh a vždy by u nich měl být textový popisek.
+Výhoda skriptu spočívá v tom, že jím načtené soubory neblokují vykreslení dokumentu. Má to ovšem jeden háček: ikony se nenačtou, pokud je JavaScript vypnutý, a bohužel nevím o žádném řešení (jako je `noscript` v případě stylů), které nevyžaduje, aby byl sprite dopředu součástí dokumentu. Závěrem je, že na ikony není spoleh a vždy by u nich měl být textový popisek.
 
 Pokud se nic nepokazí, ikony se vykreslí v podstatě okamžitě — samozřejmě s ohledem na rychlost sítě. Při druhém načtení dokumentu by prodleva měla být ještě kratší, jelikož se ikony nahrávají přímo z `localStorage`. To sice pro čtení a zápis vyžaduje synchronní — tedy blokující — operaci, ale přesto by mělo být dostatečně rychlé a zároveň spolehlivější než klasická cache v prohlížeči.
 

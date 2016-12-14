@@ -5,7 +5,6 @@
     - "David Němec"
     - "David Šanda"
     - "Jan Navrátil"
-    - "Jaroslav Jakoubě"
     - "Oldřich Taufer"
 
 
@@ -24,7 +23,7 @@
   members:
     - "Jakub Krčma"
     - "Martin Klimek"
-    - "Vít Novák"
+    - "Petr Šedivý"
     - "Vladimír Kašpar"
 
 
@@ -35,6 +34,7 @@
     - "Jakub Chábek"
     - "Jan Kahoun"
     - "Miroslav Hlávka"
+    - "Vít Novák"
 
 
 - nameEn: "gray"
@@ -42,6 +42,7 @@
   colorCode: "#aaaaaa"
   members:
     - "Filip Melík"
+    - "Jaroslav Jakoubě"
     - "Jiří Mertin"
     - "Peter Wojtovič"
 
@@ -53,4 +54,4 @@
     - "Adam Havel"
     - "Pavel Škoda"
     - "Peta Sittek"
-    - "Petr Šedivý"
+  

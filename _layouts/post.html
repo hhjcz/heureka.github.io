@@ -14,7 +14,7 @@ layout: default
                     {{ page.date | date: "%Y-%m-%d" }}
                 </time>
                 {% if page.author %}
-                -
+                |
                 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
                     <span itemprop="name">
                         {{ page.author }}
@@ -31,8 +31,8 @@ layout: default
         <div class="site-post__discussion"></div>
     </div>
 
-    <div class="site-post__tagcloud">
-        <h2 class="site-page__title">
+    <aside class="site-post__tagcloud">
+        <h2 class="site-page__subtitle">
             Tagy
         </h2>
         <ul class="site-post__tags">
@@ -44,6 +44,6 @@ layout: default
             </li>
             {% endfor %}
         </ul>
-    </div>
+    </aside>
 
 </article>

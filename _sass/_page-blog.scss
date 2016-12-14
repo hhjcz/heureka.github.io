@@ -12,15 +12,25 @@
 }
 
 .page-blog__post-date {
-    font-size: 1.25em;
+    font-size: 1.5rem;
     color: #a0a0a0;
 }
 
 .page-blog__post-title {
     display: inline;
-    font-size: 1.25em;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #808080;
+
+    a {
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
+    }
+
 }
 
 .page-blog__post-excerpt {
@@ -28,4 +38,13 @@
 
 .page-blog__post-tag {
     color: #808080;
+
+    a {
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
+    }
 }

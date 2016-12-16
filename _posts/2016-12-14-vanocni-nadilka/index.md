@@ -15,18 +15,18 @@ zdvojené: balancery, DNS servery, databáze, atd. A v neposlední řadě máme
 servery umístěny ve dvou datacentrech.
 
 Motivací je mít funkční alespoň část služeb, i když v jednom datacentru dojde k
-fatálnímu výpadku služeb (typicky napájení). Protože srdce českého internetu se
-v podstatě nachází pouze v Praze, nemá smysl umísťovat druhé datacentrum někam
-daleko od prvního (Slovenská játra odbavíme pohodlně i z Prahy). Výhoda je
-zřejmá. Zatímco při druhé lokalitě serverů například v Německu, bychom museli
-řešit nějakou vzdálenou replikaci dat, mezi dvěma datacentry, v Praze můžeme
+fatálnímu výpadku (typicky napájení). Protože srdce českého internetu se
+v podstatě nachází pouze v Praze, nemá smysl umisťovat druhé datacentrum někam
+daleko od prvního (slovenská játra odbavíme pohodlně i z Prahy). Výhoda je
+zřejmá. Zatímco při druhé lokalitě serverů, například v Německu, bychom museli
+řešit nějakou vzdálenou replikaci dat, mezi dvěma datacentry v Praze můžeme
 využít některý ze spousty optických propojů, které jsou v ní natažené.
 Typická odezva mezi serverovnami je pak v řádu stovek mikrosekund. Služby tak
 nemají šanci poznat, jestli se připojují na server vedle, nebo v jiné pražské
-části a mohou všechny žít v iluzi jedné LAN sítě.
+části, a mohou všechny žít v iluzi jedné LAN sítě.
 
-Protože jsme paranoidní a historie nás poučila, s jakou jistotou jsou bagristi
-schopní najít optické kabely v zemi, máme samozřejmě zdublované i optické trasy
+Protože jsme paranoidní a historie nás poučila, s jakou jistotou jsou bagristé
+schopni najít optické kabely v zemi, máme samozřejmě zdublované i optické trasy
 mezi datacentry. Každá vede jinudy, kabel patří jiným společnostem a my si
 pronajímáme pouze tzv. lambdu na každé trase. Prakticky to pak vypadá tak, že
 pokud je potřeba například vyměnit transceiver, který do optiky svítí, tak se
@@ -56,7 +56,7 @@ hardware na správu!
 
 Heureka má svoje vlastní [AS][as]. V každém datacentru jsou dva routery (protože
 pokud přijdete o konektivitu, tak neopravíte nic, ani problém s konektivitou).
-Celé schema tak vypadá přibližni takto
+Celé schema tak vypadá přibližně takto
 
 ![Schema](/assets/vanocni-nadilka/Routers.svg){: .center-image }
 
@@ -84,7 +84,7 @@ nějakou speciální mezisíť.
 
 V Heurece máme hodně serverů, ale zase jich není tolik, abychom se nevlezli do
 dvou racků v každém datacentru. Když si odhadnete počet potenciálních
-ethernetových přípojek v obou racích, zjístíte, že to zase není tolik a že je
+ethernetových přípojek v obou racích, zjístíte, že je
 zvládne pokrýt jeden switch. Protože ale potřebujete redundanci, tak jste na
 dvou switchích na každou lokalitu. Na výběr máte pár variant, jak pokrýt celou
 síť a) do kruhu b) každý s každým c) chytré řešení.
@@ -104,7 +104,7 @@ první. Její nevýhoda jsou další dva propoje mezi datacentry.
 ![Switche do kříže](/assets/vanocni-nadilka/Switches_cross.svg){: .center-image }
 
 Chytré řešení spočívá v použití chytrého hardware. Heureka vlastní čtyři switche
-[Cisco Nexus 5596-T][nexus]. Nejlepší způsob jako propojit server se switchem
+[Cisco Nexus 5596-T][nexus]. Nejlepší způsob jak propojit server se switchem
 po dvou kabelech je použít LACP. V Cisco hantýrce se tomu říká PortChannel, v
 Linuxu se jedná o bonding (LACP mode). Protistrany si pravidelně posílají
 kontrolní rámce, aby se domluvily, která linka má jak fungovat a data nakonec
@@ -119,8 +119,8 @@ připojený do sítě.
 Z pohledu serverů tak máme v každém datacentru jen jeden switch. Software není
 schopný rozlišit kudy chodí, ani že se jedná o dva fyzicky oddělené síťové
 prvky. vPC se dá použít nejenom mezi serverem a switchem, ale i mezi switchem a
-switchem. Takže spojit dvě datacentra je teď jednodušší, neboť v každém vlastně
-je jen "jeden" switch, který potřebuje jednu virtuální linku na switch vedlejší.
+switchem. Takže spojit dvě datacentra je teď jednodušší, neboť v každém je
+vlastně jen "jeden" switch, který potřebuje jednu virtuální linku na switch vedlejší.
 Fyzicky jsou switche zapojeny do kruhu, ale logicky se jedná o dva switche
 spojené jedním kabelem.
 

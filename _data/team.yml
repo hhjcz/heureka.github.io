@@ -4,7 +4,6 @@
   members:
     - "David Němec"
     - "David Šanda"
-    - "Jan Navrátil"
     - "Oldřich Taufer"
 
 
@@ -13,28 +12,27 @@
   colorCode: "#008000"
   members:
     - "Martin Vozník"
-    - "Michal Humpula"
     - "Vít Bartůněk"
+    - "Jakub Krčma"
+    - "Pavel Škoda"
 
 
 - nameEn: "purple"
   nameCs: "fialoví"
   colorCode: "#800080"
-  members:
-    - "Jakub Krčma"
+  members: 
+    - "Vladimír Kašpar"
     - "Martin Klimek"
     - "Petr Šedivý"
-    - "Vladimír Kašpar"
-
+    
 
 - nameEn: "blue"
   nameCs: "modří"
   colorCode: "#0000ff"
   members:
-    - "Jakub Chábek"
     - "Jan Kahoun"
     - "Miroslav Hlávka"
-    - "Vít Novák"
+    - "Jan Haering"
 
 
 - nameEn: "gray"
@@ -43,7 +41,6 @@
   members:
     - "Filip Melík"
     - "Jaroslav Jakoubě"
-    - "Jiří Mertin"
     - "Peter Wojtovič"
 
 
@@ -52,6 +49,6 @@
   colorCode: "#000000"
   members:
     - "Adam Havel"
-    - "Pavel Škoda"
     - "Peta Sittek"
+    - "Tomáš Bedřich"
   

@@ -11,28 +11,27 @@
   nameCs: "zelení"
   colorCode: "#008000"
   members:
+    - "Jakub Krčma"
     - "Martin Vozník"
     - "Vít Bartůněk"
-    - "Jakub Krčma"
-    - "Pavel Škoda"
 
 
 - nameEn: "purple"
   nameCs: "fialoví"
   colorCode: "#800080"
-  members: 
-    - "Vladimír Kašpar"
+  members:
     - "Martin Klimek"
     - "Petr Šedivý"
+    - "Vladimír Kašpar"
     
 
 - nameEn: "blue"
   nameCs: "modří"
   colorCode: "#0000ff"
   members:
+    - "Jan Haering"
     - "Jan Kahoun"
     - "Miroslav Hlávka"
-    - "Jan Haering"
 
 
 - nameEn: "gray"
@@ -49,6 +48,7 @@
   colorCode: "#000000"
   members:
     - "Adam Havel"
+    - "Pavel Škoda"
     - "Peta Sittek"
     - "Tomáš Bedřich"
   

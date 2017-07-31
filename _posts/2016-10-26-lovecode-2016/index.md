@@ -5,6 +5,7 @@ permalink: /lovecode-2016/
 date: 2016-10-26 14:00:00 +0200
 author: Peter Varga
 tags: hackathon lovecode networking
+category: blog
 ---
 
 HeurekaDevs byli, jsou a budou vždy pro každou špatnost. Adam Sobotka ze [SocialBakers][socialbakers] nás zhruba dva měsíce zpátky s jednou takovou oslovil a my jsme si řekli „Jdeme do toho!“. A tak vzniknul [{"Love":"Code"} 2016][lovecode]. Akce určená všem vývojářům, kteří si rádi svoji každodenní práci okoření něčím zajímavým. Třeba víkendem stráveným v okruhu podobných „bláznů“, co si rádi osahají nové technologie na reálném projektu a potkají u toho spousty zajímavých lidí.

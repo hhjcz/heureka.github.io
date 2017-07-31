@@ -5,6 +5,7 @@ permalink: /10-duvodu-proc-bejt-vyvojarem/
 date: 2017-04-27 14:00:00 +0200
 author: Vít Novák
 tags: heurekadevs
+category: blog
 ---
 
 Každej sem tam prožijeme nějakou tu osobnostní krizičku. Sami sebe se ptáme: Co to dělám? A proč vlastně? A po tomhle zpochybnění dosavadní existence začnete zvažovat jiný životní směry. Nabízím tady teda jeden z těch směrů: směr vývojář. **Tady je pár naprosto racionálních důvodů, proč bejt vyvojářem:**

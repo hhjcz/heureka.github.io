@@ -78,15 +78,6 @@
     }
 }
 
-.page-career__perks {
-    margin: auto;
-    width: 70%;
-
-    @include mq-mobile-only {
-        width: 100%;
-    }
-}
-
 .page-career__perk {
     display: inline;
     color: #808080;

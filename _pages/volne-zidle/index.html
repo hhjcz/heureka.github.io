@@ -8,14 +8,50 @@ permalink: /volne-zidle/
 
     <div class="info">
         <h1 class="site-page__title">
-            Volné židle
+            Zaber si volnou židli!
         </h1>
         <p class="site-page__description">
-            Chceš s námi křičet „Heuréka“?
+            Bavilo by tě uplatnit svůj talent na službě, kterou lidi znají a která má opravdu smysl? Chceš mít možnost
+            implementovat nové sexy technologie do reálně fungující aplikace? Hladovíš po rozvoji a hledáš firmu, která
+            ti ho umožní? Jsou ti startupy malé a korporáty velké? Tak to nejspíš držíme místo právě tobě! Vyber si
+            příležitost a ozvi se!
         </p>
     </div>
 
     {% include site-separator.html %}
+    <div class="page-blog">
+        <ul class="page-blog__post-list">
+            {% for post in site.categories.recruitment %}
+            <li class="page-blog__post-item">
+                <span class="page-blog__post-date">
+                    {{ post.date | date: "%Y-%m-%d" }}
+                </span>
+    
+                <h2 class="page-blog__post-title">
+                    <a class="post-item__link" href="{{ post.url | prepend: site.baseurl }}">
+                        {{ post.title }}
+                    </a>
+                </h2>
+    
+                <p class="page-blog__post-excerpt">
+                    {{ post.excerpt | strip_html }}
+    
+                    {% for tag in post.tags %}
+                    <span class="page-blog__post-tag">
+                        <a href="/tagy#{{ tag | cgi_escape }}">
+                            #{{ tag }}
+                        </a>
+                    </span>
+                    {% endfor %}
+                </p>
+            </li>
+            {% if forloop.last == false %}
+            {% include site-separator.html type="list" align="left" %}
+            {% endif %}
+    
+            {% endfor %}
+        </ul>
+    </div>
 
     <div class="page-career__list">
         {% for job in site.data.career %}
@@ -40,24 +76,6 @@ permalink: /volne-zidle/
         {% endif %}
 
         {% endfor %}
-    </div>
-
-    {% include site-separator.html %}
-
-    <div class="page-career__perks">
-        <h2 class="site-page__title">
-            Co nabízíme?
-        </h2>
-        <p class="site-page__description">
-        <ul>
-            {% for perk in site.data.perks %}
-            <li class="page-career__perk">
-               #{{ perk }}
-            </li>
-            {% endfor %}
-        </ul>
-
-        </p>
     </div>
 
     {% include site-separator.html %}

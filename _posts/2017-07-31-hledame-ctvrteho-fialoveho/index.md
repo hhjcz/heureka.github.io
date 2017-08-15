@@ -35,7 +35,7 @@ aby se naše projekty rozvíjely. Většina projektů je napsaných v **Pythonu*
 * Pojď s námi **zapít** narozeniny Heureky, ShopRoku nebo třeba Vánoce.
 
 ## Postup přijetí:
-1. **Zkontaktuj nás** například emailem [fialovi@heureka.cz](mailto:fialovi@heureka.cz "poslat email").
+1. **Zkontaktuj nás** například emailem [prace@heureka.cz](mailto:prace@heureka.cz "poslat email").
 2. **Přijď** na neformální pohovor.
 3. Přijď na **testovací den** - dostaneš úkol, na kterém nám můžeš ukázat, co všechno umíš.
 4. Přijď se nám znova ukázat, náš šéf ti udělá **nabídku, kterou neodmítneš**.

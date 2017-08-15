@@ -6,7 +6,7 @@ tags: [sysadmin, green, zeleni, nabor, hiring, liberec]
 category: recruitment
 ---
 
-Hledáme třetího člena do našeho týmu správců elektronek a lamačů železa. Někoho, kdo bude chránit a pečovat o databáze,
+Do **Liberce** hledáme třetího člena do našeho týmu správců elektronek a lamačů železa. Někoho, kdo bude chránit a pečovat o databáze,
 trestat vývojáře, kteří jsou na ni oškliví a učit nás správné databázové etiketě. Budeš vymýšlet HW, který máme koupit
 a krotit operační systém.
 

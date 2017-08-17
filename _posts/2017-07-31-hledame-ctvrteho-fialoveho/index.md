@@ -25,7 +25,7 @@ aby se naše projekty rozvíjely. Většina projektů je napsaných v **Pythonu*
 * **stravenky** (100 Kč/den) + každý měsíc 1000 Kč na benefity,
 * **kurz angličtiny** v prostoru kanceláří,
 * **telefon + volání** s 3GB dat,
-* dotovaná **MultiSport karta**.
+* zprostředkování **MultiSport karty**.
 
 ## Co ti nabízíme my:
 * Vyber si **pracovní prostředí jaké chceš** (třeba MacBook se dvěma monitory + zvedací stůl).

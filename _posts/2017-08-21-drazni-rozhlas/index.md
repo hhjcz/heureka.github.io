@@ -51,7 +51,7 @@ No a odtud je už jen krůček například na hook při deployi.
 
 ## Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qikSWJ0Q8P0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K-8ofgzcuOY" frameborder="0" allowfullscreen></iframe>
 
 ## Shrnutí
 Takováhle kravina vznikla asi za 2 hodiny a pozvedla hladinu humoru v kanceláři. Ne kvůli zprávám co to předčítá, ale proto, že je to prostě zábavný.

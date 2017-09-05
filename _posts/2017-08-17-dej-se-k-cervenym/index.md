@@ -6,7 +6,7 @@ tags: [red, červení, nabor, hiring, liberec]
 category: recruitment
 ---
 
-Bydlíš **v Liberci**, umíš v **PHP** a/nebo **Pythonu**, baví tě **frontend**, čistý **Javascript** tě láká
+Bydlíš **v Liberci**, umíš v **PHP** a/nebo **Pythonu**, baví tě **frontend**, čistý **Javascript** tě láká 
 a už sis našel cestu k **LESS**u/**SASS**u? Červený tým tě veme do party! A pokud už jsi někdy slyšel o Nette, tím lépe!
 
 ## S červenými by ses staral hlavně o tyto projekty:

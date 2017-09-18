@@ -17,7 +17,7 @@ Jsi vývojář/programátor v **Pythonu** či v **PHP**? Žiješ (nebo bys chtě
 Přijď si s námi zahrát **fotbálek** či **Xbox** a mezitím zkusit využít své zkušenosti/znalosti pro rozvoj těchto
 projektů. **Produkťák** není šéf, ale **člen týmu**. Většinou si můžeš jako pravý vývojář **určit, na čem budeš dělat**,
 aby se naše projekty rozvíjely. Většina projektů je napsaných v **Pythonu** s využitím moderních technologiií, jako je
-**ElasticSearch** či metod **umělé inteligence**.
+**ElasticSearch** či **machine learningu**.
 
 ## Co ti nabízí naše HR:
 * **stabilní zaměstnání** na dobu neurčitou, 

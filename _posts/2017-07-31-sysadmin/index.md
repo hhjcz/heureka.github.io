@@ -33,7 +33,9 @@ vymýšlet HW, který máme koupit a krotit operační systém.
 * techniku a operační systém dle přání,
 * výlety na světové konference dle tvého výběru,
 * koš pod každým stolem,
-* kanceláře v centru Liberce s výhledem na Ještěd, terasou, grilem, kávou, ovocem, fotbálkem a Xboxem,
+* kanceláře v centru Liberce s výhledem na Ještěd, nebo na Karlíně s výhledem na Vltavu a její pobřeží
+* terasu s grilem na střechách obou kanclů,
+* kávu, ovoce, fotbálek a Xbox,
 * pravidelný příděl peněz,
 * scrum,
 * naučíme tě co neumíš a necháme se naučit, co neumíme my,

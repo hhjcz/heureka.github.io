@@ -1,7 +1,7 @@
 # Site settings
 title: HeurekaDevs
 email: todo@heureka.cz
-description: Vojáci vývoje bránící čistotu kódu v Heurece
+description: Vývojáři z Heureky o vývoji v Heurece
 baseurl: "" # the subpath of the site
 url: "http://www.heurekadevs.cz" # the base hostname & protocol for the site
 

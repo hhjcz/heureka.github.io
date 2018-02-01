@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Sysadmin s nadšením pro DB
+title: Sysadmin - Linuxák
 permalink: /sysadmin/
 tags: [sysadmin, green, zeleni, nabor, hiring, praha, liberec]
 category: recruitment
 ---
 
 Do **Liberce** i do **Prahy** hledáme další členy našeho týmu správců elektronek a lamačů železa. Někoho, kdo bude
-chránit a pečovat o databáze, trestat vývojáře, kteří jsou na ni oškliví a učit nás správné databázové etiketě. Budeš
-vymýšlet HW, který máme koupit a krotit operační systém.
+chránit a pečovat o databáze a trestat vývojáře, kteří jsou na ni oškliví. Budeš vymýšlet HW, který máme koupit a krotit
+operační systém.
 
 ## Čemu se budeš věnovat:
 * spravovat, navrhovat a oživovat infrastrukturu Heureky (2 DC, 3 racky, Ubuntu, ≈ 30 serverů, > 4 TB RAM, hromada jader),

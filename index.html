@@ -22,7 +22,7 @@ layout: default
             </h2>
 
             <p class="page-blog__post-excerpt">
-                {{ post.excerpt | strip_html }}
+                {{ post.excerpt }}
 
                 {% for tag in post.tags %}
                 <span class="page-blog__post-tag">

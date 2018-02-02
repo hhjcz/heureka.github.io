@@ -9,6 +9,7 @@ categories: blog
 ---
 
 Samozřejmě jenom pokud chcete. Nabízíme ji totiž k vyhrání **v soutěži**! Ale od začátku - o co vlastně jde? Čtěte dál...
+![deka](/assets/soutez-za-chybu-muzete-dostat-deku/deka.jpg)
 
 Čas od času prolétne Twitterem nějaký ten screenshot od uživatele, který měl tu smůlu, že se mu povedlo spatřit chybovou stránku služby, kterou chtěl využít, ale zároveň to štěstí, že mu míru žalu nad nefunkčností zmírnila kreativita a smysl pro humor tvůrců onoho webu. I se zobrazením chybové hlášky se lze pomazlit! A jelikož my sami víme, že v této oblasti máme rezervu, rádi se poučíme od lepších.
 

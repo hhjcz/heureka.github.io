@@ -35,10 +35,13 @@ A na css-tricks.com se dere kód ven: <https://css-tricks.com/thispagedoesntexis
 Takže máte představu, o čem to je? Fajn! Pro jistotu, ať je to jasné, podmínky soutěže v bodech:
 * Předmětem soutěže je stránka, která se reálně zobrazí při chybě na straně serveru, či v případě nenalezení stránky na webu (při http statusu 4xx a/nebo 5xx).
 * Rozhodovat o vítězi bude celkový počet reakcí pod příspěvkem zveřejněným na stránce <https://www.facebook.com/heurekaDevs/> pro každý přihlášený projekt k 1.3.2018 12:00 SEČ. Nezáleží, zda je reakcí "to se mi líbí" nebo jiná alternativa (prostě i "mračík" se počítá do plusu).
-* Za přihlášku se považuje email zaslaný na adresu [devsblog@heureka.cz](mailto:devsblog@heureka.cz "poslat email"), obsahující URL, na které se dá přihlášená chybová hláška zobrazit a pro jistotu i screenshot toho, jak má vypadat, doručený nejpozději 9.2.2018 ve 12:00 SEČ.
-* Hlasování spustíme nejpozději 14.2.2018 ve 12:00 SEČ.
+* Za přihlášku se považuje email zaslaný na adresu [devsblog@heureka.cz](mailto:devsblog@heureka.cz "poslat email"), obsahující URL, na které se dá přihlášená chybová hláška zobrazit a pro jistotu i screenshot toho, jak má vypadat, doručený nejpozději 14.2.2018 v 16:00 SEČ.
+* Hlasování spustíme nejpozději 15.2.2018 ve 12:00 SEČ.
 * Podáním přihlášky účastník potvrzuje, že přihlášený projekt je jeho vlastní, nebo má svolení autora.
 * Vitěz obdrží originální Heureka piknikovou deku.
 * Pořadatel si vyhrazuje právo soutěž zrušit, i když se to spíš nestane.
+
+Komu bylo 18, tomu k dece přihodíme i exkluzivní sadu Heurekovic, které pro nás pálí lihovar Žufánek! Myslíme, že v kombinaci s tou dekou si můžete udělat nejhezčí piknit pod sluncem!
+![heurekovice](/assets/soutez-za-chybu-muzete-dostat-deku/heurekovice.jpg)
 
 Těšíme se na vaše kousky!

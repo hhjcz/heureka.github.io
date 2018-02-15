@@ -11,6 +11,8 @@ categories: blog
 Samozřejmě jenom pokud chcete. Nabízíme ji totiž k vyhrání **v soutěži**! Ale od začátku - o co vlastně jde? Čtěte dál...
 ![deka](/assets/soutez-za-chybu-muzete-dostat-deku/deka.jpg)
 
+**Update:** Hlasování už probíhá na naší [FB stránce](https://t.co/70pSbA5RdK)! Každá reakce pod příspěvkem se počítá! Dejte Like, nebo Haha, nebo <3, to je jedno, hlaně ať je toho hodně!
+
 Čas od času prolétne Twitterem nějaký ten screenshot od uživatele, který měl tu smůlu, že se mu povedlo spatřit chybovou stránku služby, kterou chtěl využít, ale zároveň to štěstí, že mu míru žalu nad nefunkčností zmírnila kreativita a smysl pro humor tvůrců onoho webu. I se zobrazením chybové hlášky se lze pomazlit! A jelikož my sami víme, že v této oblasti máme rezervu, rádi se poučíme od lepších.
 
 Má váš projekt vtipnou/hezkou/nápaditou/kreativní/jinak zajímavě řešenou stránku pro onu vzácnou příležitost, kdy server klientovi odpoví statusem začínajícím čtyřkou či pětkou? Pošlete url, na které se dá spatřit na emailovou adresu [devsblog@heureka.cz](mailto:devsblog@heureka.cz "poslat email")! Uzávěrka je 9.2.2018 (třeba proto, že 9 x 2 je 18), takže máte klidně ještě chvilku, pokud byste chtěli doladit kousek kódu nebo tak. Nejpozději na Valentýna je pak zveřejníme na našem [Facebookovém profilu](https://www.facebook.com/heurekaDevs/) a můžou začít dostávat lásku! Čí stránka pak bude mít nejvíc reakcí (lajků, srdíček, smajlíku) k 1.3.2018 12:00 (pravé poledne), ten od nás dostane deku. Fakt! Doslova! Originální krásnou modrou piknikovou Heureka deku!

@@ -9,7 +9,7 @@ categories: blog
 ---
 
 Samozřejmě jenom pokud chcete. Nabízíme ji totiž k vyhrání **v soutěži**! Ale od začátku - o co vlastně jde? Čtěte dál...
-![deka](/assets/soutez-za-chybu-muzete-dostat-deku/deka.jpg)
+![deka](/assets/soutez-za-chybu-muzete-dostat-deku/sensibly-sized-deka.jpg)
 
 **Update:** Hlasování už probíhá na naší [FB stránce](https://t.co/70pSbA5RdK)! Každá reakce pod příspěvkem se počítá! Dejte Like, nebo Haha, nebo <3, to je jedno, hlaně ať je toho hodně!
 

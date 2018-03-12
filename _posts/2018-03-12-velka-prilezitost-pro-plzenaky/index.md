@@ -13,7 +13,7 @@ vzniká úplně nová vývojová pobočka Heureky v Plzni! Pokud mezi ně patř�
 [inzeráty]({{ site.baseurl }}{% link _pages/volne-zidle/index.html %}), nebo číst dál pro trochu toho backgroundu
 okolo...
 
-Kvalitních mozků není nikdy dost. V tomhle případě se nejedná o punchline ze zombie apokaliptické komedie, ale o holý
+Kvalitních mozků není nikdy dost. V tomhle případě se nejedná o punchline ze zombie apokalyptické komedie, ale o holý
 fakt z odvětví vývoje (nejen) webových aplikací. Stejně tak to platí i pro Heureku. A jelikož náš budoucí (více-méně)
 mikroslužbový model spoléhá na Python jako základní stavební kámen, rozhodli jsme se zalovit ve městě se silnou
 komunitou okolo tohoto jazyka a tím je Plzeň. Dlouho jsme se k tomu přemlouvat nemuseli, protože s Plzní si spojujeme i

@@ -8,7 +8,7 @@ tags: [python, frontend, nabor, hiring, plzen]
 categories: blog
 ---
 
-Všichni Plzenští pythonáři a frontenďáci by měli zpozornět. Naskýtá se jim totiž unikátní příležitost být u toho, když
+Všichni plzenští pythonáři a frontenďáci by měli zpozornět. Naskýtá se jim totiž unikátní příležitost být u toho, když
 vzniká úplně nová vývojová pobočka Heureky v Plzni! Pokud mezi ně patříte, můžete skočit rovnou na
 [inzeráty]({{ site.baseurl }}{% link _pages/volne-zidle/index.html %}), nebo číst dál pro trochu toho backgroundu
 okolo...

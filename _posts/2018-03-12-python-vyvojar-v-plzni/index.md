@@ -15,7 +15,7 @@ smysl, lidé o něm vědí a používají ho, a v srdci ti dřímá průkopnick�
 [vit.novak@heureka.cz](mailto:vit.novak@heureka.cz "poslat email"), kde domluvíme podrobnosti!
 
 ## Čemu se budeš věnovat:
-Posláním týmu bude rozbít monolitický kód Heureky. Do budoucna chceme umožnit  její horizontální škálovatelnost a
+Posláním týmu bude rozbít monolitický kód Heureky. Do budoucna chceme umožnit její horizontální škálovatelnost a
 distribuovatelnost práce prostřednictvím mikroslužeb (tam, kde to bude dávat smysl). Je to nemalá výzva, kde tou
 největší odměnou bude především příležitost ke značnému rozšíření vlastních obzorů.
 

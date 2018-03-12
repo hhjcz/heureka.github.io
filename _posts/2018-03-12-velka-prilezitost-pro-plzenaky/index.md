@@ -9,8 +9,9 @@ categories: blog
 ---
 
 Všichni Plzenští pythonáři a frontenďáci by měli zpozornět. Naskýtá se jim totiž unikátní příležitost být u toho, když
-vzniká úplně nová vývojová pobočka Heureky v Plzni! Pokud mezi ně patříte, můžete skočit rovnou na [inzerát], nebo číst
-dál pro trochu toho backgroundu okolo...
+vzniká úplně nová vývojová pobočka Heureky v Plzni! Pokud mezi ně patříte, můžete skočit rovnou na
+[inzeráty]({{ site.baseurl }}{% link _pages/volne-zidle/index.html %}), nebo číst dál pro trochu toho backgroundu
+okolo...
 
 Kvalitních mozků není nikdy dost.V tomhle případě se nejedná o punchline ze zombie apokaliptické komedie, ale o holý
 fakt z odvětví vývoje (nejen) webových aplikací. Stejně tak to platí i pro Heureku. A jelikož náš budoucí (více-méně)

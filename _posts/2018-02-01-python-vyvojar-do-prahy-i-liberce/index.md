@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Python vývojář v Praze nebo v Liberci
+title: Python vývojář v Praze
 permalink: /python-vyvojar/
-tags: [python, nabor, hiring, praha, liberec]
+tags: [python, nabor, hiring, praha]
 category: recruitment
 ---
 
-Vyvíjíš/programuješ v Pythonu? Žiješ v Praze nebo v Liberci? Přijď se nám ukázat.
+Vyvíjíš/programuješ v Pythonu a žiješ v Praze? Přijď se nám ukázat.
 
 ## Čemu se budeš věnovat
 Konkrétní projekty se odvíjí od týmu, do kterého se zařadíš. Jsou dost rozmanité a mimo jíné v nich můžeš narazit třeba na:
@@ -44,7 +44,7 @@ společně plánuje nové featury a rozhoduje o jejich podobě.
 * Potrénuješ s námi **fotbálek**, ať v turnaji rozdrtíme zbytek firmy
 * Pojedeme občas makat někam **pryč z kanceláře**, do klidu a mimo zaběhnuté stereotypy
 * Půjdeme spolu **zapít** narozeniny Heureky, ShopRoku nebo třeba Vánoce
-* **Pogrilujeme** na terase s výhledem na Ještěd nebo Vltavu
+* **Pogrilujeme** na terase s výhledem na Vltavu
 * Budeš mít **stabilní zaměstnání** na hlavní pracovní poměr
 * Budeš mít **volnou pracovní dobu** s občasnou možností **práce z domova**
 * Po prvním roce ti přihodíme **5 dnů dovolené navíc**

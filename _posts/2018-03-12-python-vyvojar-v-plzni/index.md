@@ -3,6 +3,7 @@ layout: post
 title: Python vývojář v Plzni
 permalink: /python-vyvojar-v-plzni/
 tags: [python, nabor, hiring, plzen]
+date: 2018-05-30 09:00:00 +0100
 category: recruitment
 ---
 

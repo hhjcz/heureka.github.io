@@ -3,6 +3,7 @@ layout: post
 title: Frontend vývojář v Plzni
 permalink: /frontend-vyvojar-v-plzni/
 tags: [frontend, nabor, hiring, plzen]
+date: 2018-05-30 09:00:00 +0100
 category: recruitment
 ---
 

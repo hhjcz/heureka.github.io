@@ -42,3 +42,5 @@ aby se naše projekty rozvíjely. Většina projektů je napsaných v **Pythonu*
 
 Tým fialových  
 Martin, Petr, Vláďa
+
+{% include gdpr-recruitment-note.html %}

@@ -32,3 +32,5 @@ Pokud vás tyto řádky nadchly a nevyděsily, a je ve vás i kousek dobrodruha,
 [frontenďáky]({{ site.baseurl }}{% link _posts/2018-03-12-frontend-vyvojar-v-plzni/index.md %}) a nebo rovnou pište na
 [vit.novak@heureka.cz](mailto:vit.novak@heureka.cz "poslat email"), kde s vámi Víťa dohodne podrobnosti. My se na tuhle
 challenge dost těšíme!
+
+{% include gdpr-recruitment-note.html %}

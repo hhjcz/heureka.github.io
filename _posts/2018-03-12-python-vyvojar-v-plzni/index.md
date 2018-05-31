@@ -48,3 +48,5 @@ největší odměnou bude především příležitost ke značnému rozšířen�
 
 ## Zaujalo tě to?
 Pošli nám životopis na [vit.novak@heureka.cz](mailto:vit.novak@heureka.cz "poslat email")!
+
+{% include gdpr-recruitment-note.html %}

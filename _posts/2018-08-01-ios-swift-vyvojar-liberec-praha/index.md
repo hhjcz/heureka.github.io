@@ -7,8 +7,8 @@ date: 2018-08-01 07:00:00 +0200
 category: recruitment
 ---
 
-Umíš Swift, dělá ti radost, když tvojí appku používá spousta lidí a bydlíš v Liberci nebo v Praze? Pojď dělat na té
-naší!
+Umíš Swift, dělá ti radost, když tvojí appku používá spousta lidí a bydlíš v Liberci nebo v Praze? Pojď dělat na
+[té naší](https://itunes.apple.com/cz/app/heureka-v%C3%A1%C5%A1-n%C3%A1kupn%C3%AD-r%C3%A1dce/id436106975?mt=8){:target="_blank"}!
 
 Svojí práci můžeš nechat automaticky vybuildit na Xcode buildserveru, otestovat na spoustě zařízení v našem device labu.
 Pracujeme ve scrumu a děláme si code reviews, takže se od sebe navzájem neustále učíme.

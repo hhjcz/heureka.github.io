@@ -1,0 +1,100 @@
+---
+layout: empty
+title: WebExpo 2018 - heslo
+permalink: /webexpo/
+hiddenFromMenu: 'yes'
+---
+
+<!doctype HTML>
+<html>
+<head>
+    <script src="https://cdn.rawgit.com/aframevr/aframe/v0.8.2/dist/aframe-v0.8.2.min.js"></script>
+    <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: Source Sans Pro, Helvetica Neue, Helvetica, Segoe UI, Roboto, Arial, sans-serif;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            border-bottom: 2px solid #f0f0f0;
+            text-align: center;
+            width: 100%;
+            background-color: #ffffff;
+            z-index: 1000;
+        }
+
+        .header-link {
+            color: #30a9d4;
+            text-decoration: none;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            border-top: 2px solid #f0f0f0;
+            padding: 0.5em 0;
+            text-align: center;
+            width: 100%;
+            color: #a0a0a0;
+            background-color: #ffffff;
+            z-index: 1000;
+        }
+
+        .footer-link {
+            font-weight: bold;
+            text-decoration: none;
+            color: #a0a0a0;
+        }
+
+        /* Hide AR.js debug container */
+        #arjsDebugUIContainer
+        {
+            display: none !important;
+        }
+
+        /* Hide AR.js VR button */
+        .a-enter-vr-button
+        {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <h1>
+        <a class="header-link" href="https://www.heurekadevs.cz/" target="_blank">
+            heurekadevs.cz
+        </a>
+    </h1>
+</header>
+
+<a-scene embedded arjs>
+    <a-assets>
+        <a-asset-item id='tree-obj' src='/assets/webexpo-2018/model/heureka.obj'></a-asset-item>
+        <a-asset-item id='tree-mtl' src='/assets/webexpo-2018/model/heureka.mtl'></a-asset-item>
+    </a-assets>
+
+    <a-obj-model src="#tree-obj" mtl="#tree-mtl" position="0 0.8 0" rotation="0 0 0" scale="0.05 0.05 0.05">
+        <a-animation attribute="rotation" to="0 360 0" dur="7000" easing="linear" repeat="indefinite"></a-animation>
+    </a-obj-model>
+
+    <a-text value="Heuslo" position="-0.4 0.05 0.8" rotation="-90 0 0" color="#ffffff"></a-text>
+
+    <a-plane position="0 0 0" rotation="-90 0 0" width="2" height="2" color="#000000" material="transparent: true; opacity: 0.5"></a-plane>
+
+    <a-marker-camera preset='custom' type="pattern" url="/assets/webexpo-2018/marker/marker.patt"></a-marker-camera>
+</a-scene>
+
+<footer class="footer">
+    <a class="footer-link" href="https://twitter.com/heurekadevs" target="_blank">@heurekadevs</a>
+</footer>
+
+</body>
+</html>

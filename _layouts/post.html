@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% assign author = site.data.authors[page.author] %}
+
 <article class="site-post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <div class="site-post__wrapper">
@@ -13,19 +15,21 @@ layout: default
                 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                     {{ page.date | date: "%Y-%m-%d" }}
                 </time>
-                {% if page.author %}
-                |
-                <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                    <span itemprop="name">
-                        {{ page.author }}
-                    </span>
-                </span>
-                {% endif %}
             </p>
         </header>
 
         <div class="site-post__content" itemprop="articleBody">
             {{ content }}
+        </div>
+
+        <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name" class="site-post__author-name">{{ author.name }}</span>
+            {% if author.avatar and author.bio %}
+            <div class="site-post__author-bio">
+                <img class="site-post__author-avatar" src="../assets/author-avatars/{{ author.avatar }}" alt="{{ author.name }}" width="64" height="64">
+                {{ author.bio }}
+            </div>
+            {% endif %}
         </div>
 
         <div class="site-post__discussion"></div>

@@ -24,9 +24,11 @@ layout: default
 
         <div itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name" class="site-post__author-name">{{ author.name }}</span>
-            {% if author.avatar and author.bio %}
+            {% if author.avatar or author.bio %}
             <div class="site-post__author-bio">
+                {% if author.avatar %}
                 <img class="site-post__author-avatar" src="../assets/author-avatars/{{ author.avatar }}" alt="{{ author.name }}" width="64" height="64">
+                {% endif %}
                 {{ author.bio }}
             </div>
             {% endif %}

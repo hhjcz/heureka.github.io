@@ -8,7 +8,7 @@ tags: [webexpo, webexpo2018]
 categories: blog
 ---
 ![stánek](/assets/zapisnik-konferencniho-stankare-dil-prvni-ocekavani/webexpo-stanek.jpg)   
-Od WebExpa již nějaký ten týden uběhl a reportů jste určitě četli už několik. Já bych vám rád z odstupem zprostředkoval trochu jiný pohled. Pohled z druhé strany stánkového stolku, než je ta návštěvnická. Je to na delší povídání, tak ho rozdělím do několika kratších článků, ať toho není moc najednou. V tomhle prvním se dočtete, s jakým očekáváním jsme do toho vlastně šli.
+Od WebExpa již nějaký ten týden uběhl a reportů jste určitě četli už několik. Já bych vám rád s odstupem zprostředkoval trochu jiný pohled. Pohled z druhé strany stánkového stolku, než je ta návštěvnická. Je to na delší povídání, tak ho rozdělím do několika kratších článků, ať toho není moc najednou. V tomhle prvním se dočtete, s jakým očekáváním jsme do toho vlastně šli.
 
 Nikdy by mě nenapadlo, kolik práce a starostí to stojí, abyste dva dny měli jeden malinký stánek mezi desítkami dalších. Jsou to všechno drobnosti. Ale je jich tolik, že si přesně uvědomíte, co znamená rčení “Stokrát nic umořilo osla.” Popravdě si po téhle zkušenosti vůbec neumím představit, jak dá někdo dohromady celou konferenci. Pořadatelkám a pořadatelům konferencí tedy tímto patří můj obdiv.
 

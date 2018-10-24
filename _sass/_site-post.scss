@@ -76,6 +76,25 @@
     }
 }
 
+.site-post__author-name {
+    color: $grey-color;
+}
+
+.site-post__author-bio {
+    display: flex;
+    align-items: center;
+    font-size: 0.75em;
+    border-top: 2px solid $grey-color-light;
+    border-bottom: 2px solid $grey-color-light;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin: 0;
+}
+
+.site-post__author-avatar {
+    margin-right: .5rem;
+}
+
 .site-post__discussion {
 
 }

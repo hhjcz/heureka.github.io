@@ -5,7 +5,7 @@ permalink: /drazni-rozhlas/
 date:   2017-08-21 11:38:01 +0100
 author: Filip Melík
 tags: fun
-categories: blog
+categories: [blog, kod, legrace]
 ---
 
 V libereckém kanclu máme build server pro naše mobilní aplikace ([iOS][1] a [Android][2]), který má na starost jejich kontinuální integraci a dělá nightly buildy z vývojové branche pro produkťáka. Konkrétně je to Mac mini late 2014 (3GHz core i7).

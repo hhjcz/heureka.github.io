@@ -5,7 +5,7 @@ permalink: /integrace-crashlytics-v-ios/
 date:   2018-09-07 11:43:01 +0100
 author: Filip Melík
 tags: [ios,crashlytics,firebase,analytics,debug]
-categories: blog
+categories: [blog, kod]
 ---
 
 Když píšeme [Heureku pro iOS](https://itunes.apple.com/cz/app/heureka-app/id436106975?mt=8), rozlišujeme prostředí, ve kterém aplikace běží na vývojové (aka development, někdo tomu říká debug) a produkční pomocí proměnné v aplikaci, která je nastavovaná na základě build konfigurace [Debug/Release]. Podle toho upravujeme chování aplikace když vyvíjíme. Například tak, že používáme vývojové API namísto produkčního, zobrazujeme si napříč appkou různé pomocné informace, nebo tlačítka, která nám různě při vývoji usnadňují práci. To není nic revolučního a domnívám se, že je to běžná praxe. 

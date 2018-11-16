@@ -5,7 +5,7 @@ permalink: /velka-prilezitost-pro-plzenaky/
 date: 2018-03-12 10:00:00 +0100
 author: Vít Novák
 tags: [python, frontend, nabor, hiring, plzen]
-categories: blog
+categories: [blog, lide]
 ---
 
 Všichni plzenští pythonáři a frontenďáci by měli zpozornět. Naskýtá se jim totiž unikátní příležitost být u toho, když

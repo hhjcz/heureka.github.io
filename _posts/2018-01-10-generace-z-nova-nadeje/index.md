@@ -5,7 +5,7 @@ permalink: /generace-z-nova-nadeje/
 date: 2018-01-10 10:00:00 +0100
 author: Vít Novák
 tags: future
-categories: blog
+categories: [blog, lide]
 ---
 
 Lidé jsou různí. Spousta z nás už se pomalu dostává do toho věku, kdy začíná vyslovovat myšlenky o tom, že ta generace dnešních školáků je něco příšerného, že my jsme bývali mnohem lepší, mluvili slušněji, byli uctivější ke starším a tak vůbec v nás ještě byla nějaká naděje na lepší zítřky, zatímco teď už je vše ztraceno. Přiznejte se, že si to taky myslíte! Mám pocit, že naše babičky to shrnovaly řečnickou otázkou "Kam ta dnešní mládež spěje?". Život ale mezi všemi těmi překvapeními, jenž přináší, umí občas poslat i příjemné. A kdyby ta dnešní mládež spěla tam, co spěje Thomas, myslím, že svět by mohl mít naději být ještě chvíli v pořádku.

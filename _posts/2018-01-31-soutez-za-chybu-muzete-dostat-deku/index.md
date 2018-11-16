@@ -5,7 +5,7 @@ permalink: /za-chybu-muzete-dostat-deku/
 date: 2018-01-31 15:00:00 +0100
 author: Vít Novák
 tags: [soutez, errorpage]
-categories: blog
+categories: [blog, design, souteze]
 ---
 
 Samozřejmě jenom pokud chcete. Nabízíme ji totiž k vyhrání **v soutěži**! Ale od začátku - o co vlastně jde? Čtěte dál...

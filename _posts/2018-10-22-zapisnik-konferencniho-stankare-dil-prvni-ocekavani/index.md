@@ -5,7 +5,7 @@ permalink: /zapisnik-konferencniho-stankare-dil-prvni-ocekavani/
 date: 2018-10-23 08:00:00 +0200
 author: Vít Novák
 tags: [webexpo, webexpo2018]
-categories: blog
+categories: [blog, meetupy_a_konference]
 ---
 ![stánek](/assets/zapisnik-konferencniho-stankare-dil-prvni-ocekavani/webexpo-stanek.jpg)   
 Od WebExpa již nějaký ten týden uběhl a reportů jste určitě četli už několik. Já bych vám rád s odstupem zprostředkoval trochu jiný pohled. Pohled z druhé strany stánkového stolku, než je ta návštěvnická. Je to na delší povídání, tak ho rozdělím do několika kratších článků, ať toho není moc najednou. V tomhle prvním se dočtete, s jakým očekáváním jsme do toho vlastně šli.

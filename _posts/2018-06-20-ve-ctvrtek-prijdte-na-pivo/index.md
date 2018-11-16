@@ -5,7 +5,7 @@ permalink: /pivo-a-gril-na-terasce-2018-06-21/
 date: 2018-06-20 12:00:00 +0100
 author: Vít Novák
 tags: [pivo, terasa, gril, zábava]
-categories: blog
+categories: [blog, meetupy_a_konference]
 ---
 
 **Ve čtvrtek 21.6.2018** vás zveme na naší střešní terásku v 9. patře Danube House! Možná víte, že se kousek od našich

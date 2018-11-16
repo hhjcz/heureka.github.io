@@ -5,7 +5,7 @@ permalink: /vanocni-nadilka/
 date: 2016-12-14 13:00:00 +0200
 author: Michal Humpula
 tags: networking
-category: blog
+categories: [blog, ops_a_devops]
 ---
 
 O sysadminech v Heurece se dá říci leccos, nedostatek paranoie to ale není. Máme

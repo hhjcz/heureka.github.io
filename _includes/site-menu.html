@@ -2,15 +2,6 @@
 
     <div class="wrapper">
 
-        <a class="site-title" href="{{ site.baseurl }}/">
-            <span class="site-title__bracket">&lt;</span>
-            <span class="site-title__tagname">HeurekaDevs</span><span class="site-title__selector">:hover</span>
-            {% if page.url == '/' %}
-            <span class="site-title__attribute"> class="is-active"</span>
-            {% endif %}
-            <span class="site-title__bracket">&frasl;&gt;</span>
-        </a>
-
         <div class="site-nav-icon js-site-nav-icon">
             <svg viewBox="0 0 18 15" class="site-nav-icon__svg">
                 <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
@@ -23,10 +14,32 @@
             <ul class="site-nav__trigger js-site-nav__trigger">
                 <li class="site-nav__item">
                     <a class="site-nav__link {% if page.url == '/' %} is-active {% endif %} " href="{{ site.baseurl }}/">Blog</a>
+
                 </li>
+
+                <ul class="site-nav__submenu-mobile">
+                    {% for pageItem in site.pages %}
+                    {% if (pageItem.category == 'category_list') %}
+                    <li class="site-nav__subitem">
+                        <a class="site-nav__link {% if pageItem.url == page.url %} is-active {% endif %} " href="{{ pageItem.url | prepend: site.baseurl }}">{{ pageItem.title }}</a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+
                 {% for pageItem in site.pages %}
-                {% if (pageItem.title) and (pageItem.hiddenFromMenu != 'yes') %}
+                {% if (pageItem.title) and (pageItem.hiddenFromTopMenu != 'yes') %}
                 <li class="site-nav__item">
+                    <a class="site-nav__link {% if pageItem.url == page.url %} is-active {% endif %} " href="{{ pageItem.url | prepend: site.baseurl }}">{{ pageItem.title }}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul class="site-nav__submenu-desktop">
+                {% for pageItem in site.pages %}
+                {% if (pageItem.category == 'category_list') %}
+                <li class="site-nav__subitem">
                     <a class="site-nav__link {% if pageItem.url == page.url %} is-active {% endif %} " href="{{ pageItem.url | prepend: site.baseurl }}">{{ pageItem.title }}</a>
                 </li>
                 {% endif %}

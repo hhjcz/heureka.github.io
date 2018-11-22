@@ -5,7 +5,7 @@ permalink: /potkejme-se-na-webexpu-2018/
 date:   2018-09-19 11:00:00 +0200
 author: Vít Novák
 tags: [webexpo, webexpo2018]
-categories: blog
+categories: [blog, meetupy_a_konference]
 ---
 
 Letošní ročník konference [WebExpo 2018](https://www.webexpo.net/prague2018), točící se kolem webových technologií, obohatíme i naším stánkem! Pokud je WebExpo součástí vašeho víkendového plánu, určitě neváhejte a stavte se za námi. A pokud ještě váháte a volný lístek by v rozhodování pomohl, čtěte dále, protože kromě krátkého nakouknutí na to, co na našem stánku můžete čekat, se dozvíte, že máte šanci ještě teď získat vstupenku úplně zdarma a to bez jakékoliv větší námahy!

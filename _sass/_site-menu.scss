@@ -78,9 +78,10 @@
 }
 
 .site-nav {
-    float: right;
+    float: left;
 
     @include mq-mobile-only() {
+        float: right;
         clear: both;
     }
 }
@@ -101,9 +102,39 @@
     }
 }
 
+.site-nav__submenu-desktop {
+    clear: both;
+
+    @include mq-mobile-only() {
+        display: none;
+    }
+}
+
+.site-nav__submenu-mobile {
+    margin: 0;
+    display: none;
+
+    @include mq-mobile-only() {
+        display: block;
+        float: right;
+        clear: both;
+        margin-left: 0.5em;
+    }
+}
+
 .site-nav__item {
     list-style: none;
-    text-align: right;
+    text-align: left;
+
+    @include mq-desktop-only {
+        display: inline;
+    }
+}
+
+.site-nav__subitem {
+    font-size: 0.75rem;
+    list-style: none;
+    text-align: left;
 
     @include mq-desktop-only {
         display: inline;

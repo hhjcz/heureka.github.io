@@ -5,7 +5,7 @@ permalink: /jak-jsme-psali-hracku-na-webexpo/
 date: 2018-10-31 15:00:00 +0200
 author: Tomáš Bedřich
 tags: [webexpo, webexpo2018, docker, python, flask]
-categories: blog
+categories: [blog, kod, meetupy_a_konference]
 ---
 
 Možná jsme se potkali na letošním WebExpu a možná ne. Ať už to bylo jakkoliv, na našem stánku jste si mohli zahrát rychlou programátorskou mini-soutěž o věcné ceny. Kromě samotných řešení, která byla občas opravdu kuriozní, je však zajímavé zmínit i způsob, jakým jsme vaše řešení vyhodnocovali.

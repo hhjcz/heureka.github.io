@@ -4,7 +4,7 @@ title: "Ikony bez kompromisů"
 permalink: /ikony-bez-kompromisu/
 date: 2016-11-15 13:00:00 +0200
 author: Adam Havel
-tags: front-end web development
+tags: frontend web development
 categories: [blog, kod, design]
 ---
 

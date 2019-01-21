@@ -43,7 +43,7 @@ Na našem vývojářském blogu je článek k jeho [vzniku][1]. V týmu máme je
 * Po prvním roce přidáváme 5 dnů dovolené navíc.
 * Dostaneš stravenky (100 Kč/den) + každý měsíc 1000 Kč do Cafeterie.
  
-**Místo vykonávání pozice:** Liberec 
+**Místo vykonávání pozice:** Plzeň 
  
 ## Zaujalo tě to?
 Ozvi se přímo našemu šéfovi vývoje přes [LinkedIn][8] nebo email [lukas.putna@heureka.cz](mailto:lukas.putna@heureka.cz "poslat email") lukas.putna@heureka.cz ;-).

@@ -2,7 +2,7 @@
 layout: post
 title: Webový/á vývojář/ka pro plzeňský “zlatý” tým
 permalink: /webovy-a-vyvojar-ka-pro-plzensky-zlaty-tym/
-tags: [web, nabor, hiring, liberec]
+tags: [web, nabor, hiring, plzen]
 category: recruitment
 ---
 

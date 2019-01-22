@@ -4,6 +4,7 @@ title: Python vývojář/ka pro pražský “fialový” tým
 permalink: /python-vyvojar-ka-pro-prazsky-fialovy-tym/
 tags: [python, nabor, hiring, praha]
 category: recruitment
+excerpt: Fialový tým v Praze stojí u všech skvělých nápadů, které pomáhají tvořit unikátní katalog produktů dostupných nejen na českém internetu. Za vším stojí hlavně automatizace a snaha získávat co nejvíce přesné informace, abychom uživatelům Heureky umožnili ideální výběr produktu. Kvalitní katalog je to, co tvoří Heureku Heurekou, a proto je práce fialového týmu klíčová pro všechny další týmy.
 ---
 
 Jsme Heureka, nákupní rádce působící v 9 zemích s 20 miliony unikátními návštěvníky měsíčně. Jsme také velká parta mladých lidí, která učí společnost nakupovat online - výhodně, rychle a jednoduše – zkrátka s přehledem. Pracujeme v online prostředí, kde musíme být pohotoví, rychlí a o krok napřed před konkurencí.

@@ -4,6 +4,7 @@ title: Webový/á vývojář/ka pro liberecký “červený” tým
 permalink: /webovy-a-vyvojar-ka-pro-liberecky-cerveny-tym/
 tags: [web, nabor, hiring, liberec]
 category: recruitment
+excerpt: Náš červený tým v Liberci stojí u všech skvělých nápadů, které pomáhají uživatelům Heureky co nejchytřeji nakoupit zboží, o které mají zájem. Produktový detail je díky tomu vůbec ta nejdůležitější část na celé Heurece, patří k ní také bidovací proces nabídek e-shopů, výběr doprav a celková prezentace všeho, co o daném produktu víme. Zároveň ale tento tým umožňuje uživateli nakoupit přímo v našem marketplace - Heureka Košíku nebo udržovat si ten správný přehled v uživatelském účtu.
 ---
 
 Jsme Heureka, nákupní rádce působící v 9 zemích s 20 miliony unikátními návštěvníky měsíčně. Jsme také velká parta mladých lidí, která učí společnost nakupovat online - výhodně, rychle a jednoduše – zkrátka s přehledem. Pracujeme v online prostředí, kde musíme být pohotoví, rychlí a o krok napřed před konkurencí.

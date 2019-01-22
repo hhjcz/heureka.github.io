@@ -4,6 +4,7 @@ title: Webový/á vývojář/ka pro plzeňský “zlatý” tým
 permalink: /webovy-a-vyvojar-ka-pro-plzensky-zlaty-tym/
 tags: [web, nabor, hiring, plzen]
 category: recruitment
+excerpt: Náš tým v Plzni stojí u všech skvělých nápadů, které pomáhají e-shopům získat z Heureky co nejvíce. Od registrace, dobití kreditu až po správu dat, nastavení profilu, správu biddingu, košíku a spousty dalších zajímavých nástrojů. Spolupráce s e-shopy je náš hlavní zdroj zisků, proto je práce plzeňského týmu pro Heureku klíčová.
 ---
 
 Jsme Heureka, nákupní rádce působící v 9 zemích s 20 miliony unikátními návštěvníky měsíčně. Jsme také velká parta mladých lidí, která učí společnost nakupovat online - výhodně, rychle a jednoduše – zkrátka s přehledem. Pracujeme v online prostředí, kde musíme být pohotoví, rychlí a o krok napřed před konkurencí.

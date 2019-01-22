@@ -4,6 +4,7 @@ title: Python vývojář/ka - Praha, Liberec, Plzeň
 permalink: /python-vyvojar-ka-praha-plzen-liberec/
 tags: [python, nabor, hiring, praha, plzen, liberec]
 category: recruitment
+excerpt: Naším závazkem je tvořit produkty, které jsou dlouhodobě technologicky udržitelné, škálovatelné a lze je efektivně rozvíjet. I proto se soustředíme na architekturu založenou na konceptu Microservices komunikujících přes REST API a na moderních DevOps přístupech.
 ---
 
 Jsme Heureka, nákupní rádce působící v 9 zemích s 20 miliony unikátními návštěvníky měsíčně. Jsme také velká parta mladých lidí, která učí společnost nakupovat online - výhodně, rychle a jednoduše – zkrátka s přehledem. Pracujeme v online prostředí, kde musíme být pohotoví, rychlí a o krok napřed před konkurencí.
@@ -42,7 +43,7 @@ Každý tým má u nás dlouhodobě na starost jednu z několika důležitých o
 **Místo vykonávání pozice:** Praha/Plzeň/Liberec 
  
 ## Zaujalo tě to?
-Ozvi se přímo našemu šéfovi vývoje přes [LinkedIn][1] nebo email [lukas.putna@heureka.cz](mailto:lukas.putna@heureka.cz "poslat email") lukas.putna@heureka.cz ;-).
+Ozvi se přímo našemu šéfovi vývoje přes [LinkedIn][1] nebo email [lukas.putna@heureka.cz](mailto:lukas.putna@heureka.cz "poslat email") ;-).
 
 {% include gdpr-recruitment-note.html %}
 

@@ -46,7 +46,7 @@ Na našem vývojářském blogu je článek k jeho [vzniku][1]. V týmu máme je
 **Místo vykonávání pozice:** Plzeň 
  
 ## Zaujalo tě to?
-Ozvi se přímo našemu šéfovi vývoje přes [LinkedIn][8] nebo email [lukas.putna@heureka.cz](mailto:lukas.putna@heureka.cz "poslat email") lukas.putna@heureka.cz ;-).
+Ozvi se přímo našemu šéfovi vývoje přes [LinkedIn][7] nebo email [lukas.putna@heureka.cz](mailto:lukas.putna@heureka.cz "poslat email") ;-).
 
 {% include gdpr-recruitment-note.html %}
 

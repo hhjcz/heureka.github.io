@@ -42,7 +42,7 @@ Každý tým má u nás dlouhodobě na starost jednu z několika důležitých o
 **Místo vykonávání pozice:** Praha/Plzeň/Liberec 
  
 ## Zaujalo tě to?
-Ozvi se přímo našemu šéfovi vývoje přes [LinkedIn][1] nebo email [lukas.putna@heureka.cz](mailto:lukas.putna@heureka.cz "poslat email") lukas.putna@heureka.cz ;-).
+Ozvi se přímo našemu šéfovi vývoje přes [LinkedIn][1] nebo email [lukas.putna@heureka.cz](mailto:lukas.putna@heureka.cz "poslat email") ;-).
 
 {% include gdpr-recruitment-note.html %}
 

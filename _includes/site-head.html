@@ -11,7 +11,7 @@
     <meta property="og:image" content="{% if page.imageUrl %}{{ page.imageUrl }}{% else %}{{ site.url }}{{ site.baseurl }}/img/header.png{% endif %}" />
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:url" content="{{ page.url | absolute_url | replace:'index.html','' }}" />
 
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:site" content="@{{ site.twitter_username }}" />
@@ -19,6 +19,6 @@
     <meta property="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="canonical" href="{{ page.url | absolute_url | replace:'index.html','' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' }}">
 </head>

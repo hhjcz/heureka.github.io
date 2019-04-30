@@ -20,9 +20,9 @@ k sobě. Momentálně naše párování funguje tak, že vezmeme název produktu
 (interně je produkt nadřazený objekt, na něj se vážou nabídky - konkrétní od
 obchodů), kterou nám obchod poskytnul a zkoušíme najít shodu s jinou nabídkou.
 Nad názvem sice provádíme nějaké operace, aby bylo jednodušší shodu najít,
-ale úspěšnost aktuálního řešení není nijak valná (uvedl bych číslo, ale metrika
-je zatím jen rozpracovaná). Navíc, párujeme nabídky na nabídky, aby manuální
-práce našich administrátorů potom nemusela být dvojí.
+ale úspěšnost aktuálního řešení není nijak valná. 
+Navíc, párujeme nabídky na nabídky, aby manuální práce našich administrátorů 
+potom nemusela být dvojí.
 
 ### Příklad
 
@@ -97,7 +97,7 @@ Hrubý náčrt vypadal zhruba takto:
     "offerId": 352351,
     "productId": 412551,
     "signals": {
-        "NameLevenschtein30": 0.85,
+        "NameLevenshtein30": 0.85,
         "NameEquality": 0
         ...
     }
@@ -154,6 +154,6 @@ detaily, vše řádně vyfoceno a komponenty rozebrány každým z nás, aby se 
 staly úkoly do našich nastávajících sprintů.
 
 ... a tak jsme v týmu fialových vymysleli nejen DaSenku (Data and Signals),
-ale celou architekturu MVP nového párování. Teď už to jen celé naprgat a uvidíme,
+ale celou architekturu MVP nového párování. Teď už to jen celé naprogramovat a uvidíme,
 jestli jsme to vymysleli dobře, o což se tady rádi podělíme :)
 

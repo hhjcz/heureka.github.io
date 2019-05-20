@@ -8,7 +8,7 @@ tags: [hackathon]
 categories: [blog, meetupy_a_konference, design]
 ---
 
-Sotva na Ještědu roztál poslední sníh, vyrazili jsme s vývojem pracovat mimo naši komfortní zónu. Zaklapli jsme notebooky, sbalili pár věcí, nakoupili dostatek piva a nasedli do aut směr chalupa vzdálená jen několik kilometrů od Mácháče. Z kanceláře rovnou do divočiny!
+Sotva na Ještědu roztál poslední sníh, vyrazili jsme s vývojem pracovat mimo naši komfortní zónu. Zaklapli jsme notebooky, sbalili pár věcí a nasedli do aut směr chalupa vzdálená jen několik kilometrů od Mácháče. Z kanceláře rovnou do divočiny!
 
 ## Promyšlený plán a přípravy
 
@@ -24,7 +24,7 @@ Následující den jsme zasedli k počítačům, rozběhali základní skeleton 
 
 Další ráno jsme začali prezentací výsledků z předchozího dne, synchronizovali jsme se v tom, co je potřeba dodělat a šli jsme na věc.
 
-![makáme o 106](/assets/homepage-hackathon/hackathon-3.jpg)
+![makáme o sto šest](/assets/homepage-hackathon/hackathon-3.jpg)
 
 ## Jakou jsme zvolili technologii?
 
@@ -32,11 +32,11 @@ Homepage je naše vizitka a je nutné, aby se načítala rychle. Rozhodli jsme s
 
 ## A výsledek?
 
-Pracovali jsme spolu, pracovali jsme odděleně. Pracovali jsme v kuchyni, v obýváku, venku na lavici. Pracovali jsme ve dne, v noci. Pracovali jsme o 106 pro jednu jedinou věc. **Pracovali jsme pro novou homepage!**
+Pracovali jsme spolu, pracovali jsme odděleně. Pracovali jsme v kuchyni, v obýváku, venku na lavici. Pracovali jsme ve dne, v noci. Pracovali jsme o sto šest pro jednu jedinou věc. **Pracovali jsme pro novou homepage!**
 
 ![prezentujeme výsledky](/assets/homepage-hackathon/hackathon-2.jpg)
 
-Povedlo se! AB test nové homepage právě běží na mobilní Heurece! Nyní budeme sledovat, co to s vámi dělá, dáme do kupy poslední úpravy a vypustíme ji do světa pro všechny uživatele i na desktop.
+Povedlo se! Novou homepage jsme po krátkém AB testu nasadili na mobilní Heureku! Nyní budeme ladit poslední detaily a brzy ji vypustíme i na desktop.
 
 **Akce tohoto typu vnáší do našich týmů energii, rozbíjí kancelářský stereotyp a stmelují lidi.** Máme je rádi.
 

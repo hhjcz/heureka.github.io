@@ -2,9 +2,9 @@
 layout: post
 title: "Homepage hackathon"
 permalink: /homepage-hackathon/
-date: 2019-05-14 10:00:00 +0200
+date: 2019-05-21 14:12:00 +0200
 author: Jiří Vích
-tags: [hackathon]
+tags: [hackathon, homepage]
 categories: [blog, meetupy_a_konference, design]
 ---
 

@@ -40,5 +40,7 @@ Povedlo se! Novou homepage jsme po krátkém AB testu nasadili na mobilní Heure
 
 **Akce tohoto typu vnáší do našich týmů energii, rozbíjí kancelářský stereotyp a stmelují lidi.** Máme je rádi.
 
+Výsledek naší práce můžete vidět na [m.heureka.cz](https://m.heureka.cz/).
+
 ![nová homepage](/assets/homepage-hackathon/heureka-1.png)
 ![nová mobilní homepage](/assets/homepage-hackathon/heureka-2.png){: width="300px"}

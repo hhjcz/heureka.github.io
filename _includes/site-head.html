@@ -17,6 +17,8 @@
     <meta property="twitter:site" content="@{{ site.twitter_username }}" />
     <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta property="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+    <meta property="twitter:image" content="{% if page.imageUrl %}{{ page.imageUrl }}{% else %}{{ site.url }}{{ site.baseurl }}/img/header.png{% endif %}" />
+
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | absolute_url | replace:'index.html','' }}">

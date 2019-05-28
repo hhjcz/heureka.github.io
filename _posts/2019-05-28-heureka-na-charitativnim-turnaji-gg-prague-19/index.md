@@ -6,6 +6,7 @@ date: 2019-05-28 14:12:00 +0200
 author: David Příplata
 tags: [ggprague, csgo]
 categories: [blog, legrace, meetupy_a_konference]
+imageUrl: /assets/gg-prague-19/heureka-gg-2019-01.png
 ---
 
 V sobotu 25. května 2019 jsme se jako tým Heureka zúčastnili charitativního turnaje [GameForGood Prague](http://game4good.cz){:target="_blank"} v počítačové hře **Counter Strike Global Offensive**. Výtěžek z tohoto turnaje putoval na Nadační fond Jonášek, který nakupuje potřebné vybavení do dětských nemocnic.

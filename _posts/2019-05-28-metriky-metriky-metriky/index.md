@@ -6,6 +6,7 @@ date: 2019-05-29 11:00:00 +0200
 author: David Jetelina
 tags: [metriky, devops, prometheus, grafana]
 categories: [blog]
+imageUrl: /assets/metriky-metriky-metriky/parovani_1d.png
 ---
 
 Metriky jsou jednou z nejdůležitějších částí práce vývojových týmu. Pokud si to nemyslíte, čtěte dál a dozvíte se proč.
@@ -21,7 +22,7 @@ na menší části a vidět, jak si vedou.
 ## Okénko do metrik automatického párování
 
 Konkrétněji - před měsícem jsem na našem blogu popisoval něco málo o tom, [jak jsme technicky vymýšleli nové 
-párování]({{ site.baseurl }}{% 2019-04-30-jak-fialovi-vymysleli-dasenku %}). Rád bych se trochu vrátil v čase a popsal,
+párování]({{ site.baseurl }}/jak-fialovi-vymysleli-dasenku/). Rád bych se trochu vrátil v čase a popsal,
 co tomu předcházelo. Věděli jsme, že nové párování je důležité, ale pouze tak nějak pocitově. Než se dostaneme
 k tomu, že nové párování pustíme v produkci, budeme chtít vědět, že je lepší než současné řešení. Což se 
 jednoduše řekne, ale abychom si definovali co to „lepší“ znamená, vyjeli jsme mimo kancelář a sedli si nad to.

@@ -46,3 +46,7 @@ Tímto bych chtěl poděkovat všem zúčastněným za krásný výsledek a př�
 **Záznam celého turnaje můžete zhlédnout zde**
 
 <iframe src="https://player.twitch.tv/?autoplay=false&video=v429565795" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="680"></iframe>
+
+![Heureka tým](/assets/gg-prague-19/heureka-tym-1.jpg)
+
+![Heureka tým](/assets/gg-prague-19/heureka-tym-2.jpg)

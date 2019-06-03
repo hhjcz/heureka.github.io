@@ -4,7 +4,7 @@ title: "Android Makers - Paris 2019"
 permalink: /android-makers-paris-2019/
 date: 2019-05-29 15:00:00 +0200
 author: Jaroslav Jakoubě
-tags: [android, konference, androidmakers2019]
+tags: [android, konference, androidmakers]
 categories: [blog]
 imageUrl: /assets/2019-05-29-android_makers_paris/share.jpg
 ---
@@ -22,7 +22,7 @@ a člověk se tak mohl v klidu soustředit na prezentaci.
 
 ![Saly](/assets/2019-05-29-android_makers_paris/rooms.jpg)
 
-Většina přednášek byla formou prezentací, ale bylo zde i pár workshopů, livecodingu a samozřejmě nesměla chybět 
+Většina přednášek byla formou prezentací, ale bylo zde i pár workshopů, live codingu a samozřejmě nesměla chybět 
 skvělá dvojka Chet Haase a Romain Guy a jejich comedy talk. 
 <br>Co jsem velice ocenil, byla mobilní apka určená 
 pouze pro účely této konference, ve které bylo možné vytvořit seznam oblíbených přednášek, na které jsem pak před 
@@ -63,7 +63,7 @@ setu/spritesheetu, který lze použít např. na webu.
 
 ## Vy jste se zase kochal, že jo, pane programátore?
 
-Dostali jsme se i do města! Prošli jsme se po většině známých památek, viděli jsme ohořelý Noter Dame, 
+Dostali jsme se i do města! Prošli jsme se po většině známých památek, viděli jsme ohořelý Notre-Dame, 
 prošli jsme se pod Eiffelovkou, potkali jsme protestující Žluté vesty… Prostě jaro v Paříži, jak má být.
 
 ![Louvre](/assets/2019-05-29-android_makers_paris/louvre.jpg)
@@ -85,5 +85,5 @@ __AndroidMakers Paris 2019:__
 <br>\+ Perfektně zorganizováno
 <br>\+ Skvělé přednášky
 <br>\+ Jednoduchá ale velice užitečná apka s programem
-<br>\+ Livecoding prezentace
+<br>\+ Live coding prezentace
 <br>\- Francouzsky umím maximálně pozdravit a “nepřednášející” anglicky moc neuměli

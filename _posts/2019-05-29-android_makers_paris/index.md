@@ -18,7 +18,7 @@ Tato dvoudenní konference se celá konala v budově Le Beffroi de Montrouge ve 
 u kterých byla velmi tématicky znázorněna kapacita míst. Po naplnění místnosti androiďáky, nebo na začátku prezentace, 
 vždy stál jeden z pořadatelů před vstupem do místnosti a s přísným (ale omluvným) gestem už nikoho dovnitř nepustil. 
 Osobně beru tento způsob jako naprosto perfektní, protože se tím minimalizoval jeden z nejčastějších rušivých elementů, 
-a člověk se tak mohl v klidu soustředit na prezentaci.  
+a člověk se tak mohl v klidu soustředit na prezentaci.
 
 ![Saly](/assets/2019-05-29-android_makers_paris/rooms.jpg)
 
@@ -41,7 +41,7 @@ a nové featury Kotlinu, jako například lepší podpora coroutines, multiplatf
 
 Taky vás štve, jak se aplikace na storu pořád zvětšují? Nejste sami! Trápí to hodně lidí, zejména v místech 
 s účtovaným připojením. Tuto problematiku řešil například Ben Weiss z Googlu ve své přednášce “Best practices for 
-a modularized app”,  kde popisoval, jaký to může mít dopad například na počet instalací/odinstalací. 
+a modularized app”, kde popisoval, jaký to může mít dopad například na počet instalací/odinstalací. 
 Velice pěkně zde znázornil velikosti zabundlovaných aplikací pomocí Android App Bundle. Dále se zde zabýval 
 rozdělováním aplikace do jednotlivých modulů, které ulehčí nejen vývoj, ale usnadní například použití Dynamic Features.
 

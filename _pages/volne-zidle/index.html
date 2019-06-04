@@ -23,10 +23,7 @@ permalink: /volne-zidle/
         <ul class="page-blog__post-list">
             {% for post in site.categories.recruitment %}
             <li class="page-blog__post-item">
-                <span class="page-blog__post-date">
-                    {{ post.date | date: "%Y-%m-%d" }}
-                </span>
-    
+                    
                 <h2 class="page-blog__post-title">
                     <a class="post-item__link" href="{{ post.url | prepend: site.baseurl }}">
                         {{ post.title }}

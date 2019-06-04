@@ -23,8 +23,7 @@ a člověk se tak mohl v klidu soustředit na prezentaci.
 ![Saly](/assets/2019-05-29-android_makers_paris/rooms.jpg)
 
 Většina přednášek byla formou prezentací, ale bylo zde i pár workshopů, live codingu a samozřejmě nesměla chybět 
-skvělá dvojka Chet Haase a Romain Guy a jejich comedy talk. 
-<br>Co jsem velice ocenil, byla mobilní apka určená 
+skvělá dvojka Chet Haase a Romain Guy a jejich comedy talk. Co jsem velice ocenil, byla mobilní apka určená 
 pouze pro účely této konference, ve které bylo možné vytvořit seznam oblíbených přednášek, na které jsem pak před 
 jejich začátkem byl upozorněn notifikací.
 
@@ -53,7 +52,7 @@ Některé přednášky byly věnovány frontendu a byla v nich řešena problema
 Samozřejmě nemohla chybět prezentace “Constraint Layout 2.0”, ve které se Nicolas Roard a John Hoford předháněli, 
 kdo udělá lepší animaci jen pomocí závislostí mezi jednotlivými komponentami. 
 
-V ostatních přednáškách byl docela hojně využit nástroj Shape Shifter od Alexe Lockwooda. 
+V ostatních přednáškách byl docela hojně využit nástroj [Shape Shifter](https://shapeshifter.design/) od Alexe Lockwooda. 
 Jedná se o zajímavý projekt, pomocí kterého dokážete animovat libovolná SVG nebo Vector Drawable. 
 Po nahrání zdrojového souboru lze upravit jednotlivé body/barvy, definovat jim cílové parametry, a tím vytvořit 
 zamýšlenou animaci. Výsledek pak lze exportovat buď do Vector Drawable a přímo použít v Android apce, nebo do SVG 

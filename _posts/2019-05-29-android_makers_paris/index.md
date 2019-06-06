@@ -2,7 +2,7 @@
 layout: post
 title: "Android Makers - Paris 2019"
 permalink: /android-makers-paris-2019/
-date: 2019-05-29 15:00:00 +0200
+date: 2019-06-06 9:24:00 +0200
 author: Jaroslav Jakoubě
 tags: [android, konference, androidmakers]
 categories: [blog]

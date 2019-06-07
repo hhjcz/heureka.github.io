@@ -6,10 +6,10 @@ date: 2019-05-30 11:00:00 +0200
 author: Adam Havel
 tags: frontend web
 categories: [blog]
+imageUrl: /assets/princip-postupneho-vylepseni/thumb.jpg
 ---
 
 ![](/assets/princip-postupneho-vylepseni/thumb.jpg)
-
 Od svého zrodu prošel JavaScript, spolu s celým internetem, obrovským vývojem a z neškodně působícího jazyka se stal moloch, na jehož bedrech spočívá nemalá tíha webů, které dnes používáme. Ostatně stačí provést malý pokus. JavaScript v prohlížeči na chvíli vypneme a záhy zjistíme, že se nám web před očima rozpadá rychleji než důvěra v dobré úmysly Facebooku.
 
 Samozřejmě se musíme ptát, kolik uživatelů má potřebu vypínat JavaScript, a správně tušíme, že malý zlomek. Skutečnost je ovšem složitější. Mezi uživatele bez JavaScriptu se totiž snadno zařadíme i jinak: stáhne se stránka, ale už ne skript, který web potřebuje pro svůj chod. Možných důvodů je spousta: chyba v požadavku, firewall, timeout („metro vjelo do tunelu”), manipulace na straně poskytovatele připojení či hostingu, nebo třeba rozšíření v prohlížeči typu AdBlock.

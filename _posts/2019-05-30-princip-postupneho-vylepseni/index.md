@@ -2,7 +2,7 @@
 layout: post
 title: "Princip postupného vylepšení"
 permalink: /princip-postupneho-vylepseni/
-date: 2019-05-30 11:00:00 +0200
+date: 2019-06-17 10:02:00 +0200
 author: Adam Havel
 tags: frontend web
 categories: [blog]

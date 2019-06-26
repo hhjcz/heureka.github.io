@@ -11,7 +11,7 @@ imageUrl: /assets/javascript-zodpovedne/thumb.jpg
 
 V [předchozím článku](/princip-postupneho-vylepseni/) jsem popsal způsob návrhu aplikace zvaný princip postupného vylepšení. Ten říká, že základem webové služby musí být HTML a JavaScript považuje za jedno z vylepšení. Jak ovšem zajistit, aby se JavaScript skutečně spustil jen tehdy, kdy máme jistotu, že to hostitelské prostředí — typicky prohlížeč — snese? A jak stanovit hranici, která uživatele jasně rozdělí na dva tábory: s JavaScriptem a bez?
 
-Podstata obou otázek spočívá v problému detekce prostředí. Web není *binární* platforma jako iOS nebo Android, ale obrovská množina konfigurací. Z principu tedy není možné vytvořit jednotný zážitek a aplikace musí být **„responzivní“** i z pohledu *UX*. Jednou cestou jak s problémem naložit, je tázat se prostředí na jeho **název** a **verzi**, a na základě odpovědi zvolit postup. Typicky se ptáme na HTTP hlavičku `User Agent`. Ta nám ovšem nedává žádnou záruku o své pravdivosti a snadno se může stát, že narazíme na prostředí, které se tváří býti něčím, čím není. Takový postup tedy stojí na velmi vratkých nohách.
+Podstata obou otázek spočívá v problému detekce prostředí. Web není *binární* platforma jako iOS nebo Android, ale obrovská množina konfigurací. Z principu tedy není možné vytvořit jednotný zážitek a aplikace musí být **„responzivní“** i z pohledu *UX*. Jednou cestou, jak s problémem naložit, je tázat se prostředí na jeho **název** a **verzi**, a na základě odpovědi zvolit postup. Typicky se ptáme na HTTP hlavičku `User Agent`. Ta nám ovšem nedává žádnou záruku o své pravdivosti a snadno se může stát, že narazíme na prostředí, které se tváří býti něčím, čím není. Takový postup tedy stojí na velmi vratkých nohách.
 
 ```js
 if (navigator.userAgent.indexOf('Chrome') !== -1) {
@@ -42,7 +42,7 @@ Jaké vlastnosti zvolit? Nejlepší je vybrat ty, bez kterých se neobejdeme a j
 - `Object.assign` (✝ *Internet Explorer 11*)
 - `localStorage` (✝ *Opera Mini*)
 
-Máme-li jasno v cílové skupině, v naší aplikaci (nazvěme ji `app.js`) navrch přidáme jednoduchou podmínku, která ověří potřebné vlasnosti. V případě selhání bez otálení ukončíme vykonání skriptu.
+Máme-li jasno v cílové skupině, v naší aplikaci (nazvěme ji `app.js`) navrch přidáme jednoduchou podmínku, která ověří potřebné vlasnosti. V případě selhání bez otálení ukončíme vykonávání skriptu.
 
 ```js
 if (
@@ -57,7 +57,7 @@ document.documentElement.classList.add('js');
 …
 ```
 
-Pokud ovšem prohlížeč testem projde, aplikaci necháme dělat svou práci a samotnému HTML dokumentu navíc přilepíme třídu `.js`. S její pomocí víme i mimo skript, že aplikace běží. Informaci hned využijeme při návrhu stylů v duchu principu postupného vylepšení.
+Pokud ovšem prohlížeč testem projde, aplikaci necháme dělat svou práci. Samotnému HTML dokumentu navíc přidáme třídu `.js`. Díky ní pak i mimo skript víme, že aplikace běží, a tuto informaci hned využijeme při návrhu komponent z pohledu stylů.
 
 ## Návrh komponent
 
@@ -81,7 +81,7 @@ Navrhneme komponentu s třídou `.accordion` a následující strukturou: nadpis
     }
 ```
 
-Ovšem v případě, že se potřebný skript z jakéhokoliv důvodu nenačte, je obsah najednou zcela nedostupný. Proto využijeme zmíněnou třídu `.js` a styly přepíšeme tak, že se logika obrátí: obsah je v základu rozbalený a skryje se pouze tehdy, kdy víme, že ovládací skript běží. Jde o triviální změnu, ale se zásadním dopadem — tedy zcela v duchu principu postupného vylepšení.
+Ovšem v případě, že se potřebný skript z jakéhokoliv důvodu nenačte, je obsah najednou zcela nedostupný. Proto využijeme zmíněnou třídu `.js` a styly přepíšeme tak, že se logika obrátí: obsah je v základu rozbalený a skryje se pouze tehdy, kdy víme, že ovládací skript běží. Jde o triviální změnu, ale se zásadním dopadem — tedy zcela v duchu [principu postupného vylepšení](/princip-postupneho-vylepseni/).
 
 ```scss
 .accordion { … }
@@ -115,7 +115,7 @@ Tak snadné to ale samozřejmě nebude. Na základě podmínky v příkladu mů�
 
 ## *Polyfilling*
 
-Řešením pro chybějící rozhraní jsou již zmíněné *polyfilly*, neboli knihovny, které v případě potřeby chybějící funkcionalitu dodají. Načteme-li *polyfill* pro `fetch` před naším `scout.js`, máme vyhráno. S tím nám pomůže atribut `defer`, který zaručí, že se skripty vykonají v pořadí, které určíme, a to v i případě více souborů.
+Řešením pro chybějící rozhraní jsou již zmíněné *polyfilly*, neboli knihovny, které v případě potřeby chybějící funkcionalitu dodají. Načteme-li *polyfill* pro `fetch` před naším `scout.js`, máme vyhráno. S tím nám pomůže atribut `defer`, který zaručí, že se skripty vykonají v pořadí, které určíme, a to i v případě více souborů.
 
 ```html
 <script src="js/lib/promise.js" defer></script>
@@ -129,6 +129,14 @@ Obratem se nám však vrátil původní problém. Prohlížeče, které neprojdo
 Jedno z možných spočívá v rozšíření `scout.js` o logiku nahrávání *polyfillů*. U každého z nich se zeptáme, zdali je potřeba, a pokud ano, pak jej stáhneme. Když máme jistotu, že jsou všechny nutné knihovny načteny, stáhneme i zbytek aplikace.
 
 ```js
+if (
+    !document.querySelector
+    || !window.localStorage
+    || !('classList' in document.createElement('_'))
+) {
+    return false;
+}
+
 function loadScript(src, callback) {
     let scriptEl = document.createElement('script');
 
@@ -172,7 +180,7 @@ Jelikož v tomto příkladě jeden z *polyfillů* předpokládá chybějící po
 
 ## *Transpilace*
 
-Stále však není dobojováno. Pozorní najdou v předchozím příkladu další problémy: Internet Explorer ve verzi 10 nerozumí klíčovému slovu `let`, verze 11 zase nechápe *arrow* funkce (`(...) => { ... }`), natož *destructuring* (`({ test })`). S potížemi tohoto typu nám *polyfilly* nepomohou, neboť už nejde o chybějící API, ale o konflikt na úrovni samotné syntaxe jazyka. Ten lze řešit pouze metodou zvanou *transpilace*. Ta zdrojový kód transformuje do podoby, která je stravitelná pro **specifikovanou** sadu prohlížečů. Nejpoužívanějším nástrojem pro *transpilaci* kódu je [Babel](https://babeljs.io/), který lze použít přímo v příkazové řádce nebo jako součást automatizovaných *build* procesů (Grunt, webpack a podobné). Pokud jej použijeme na našem příkladu, je výstupem kód, který konečně snesou i poslední dvě verze Internet Exploreru.
+Stále však není dobojováno. Pozorní najdou v předchozím příkladu další problémy: Internet Explorer ve verzi 10 nerozumí klíčovému slovu `let`, verze 11 zase nechápe *arrow* funkce (`(...) => { ... }`), natož *destructuring* (`({ test })`). S potížemi tohoto typu nám *polyfilly* nepomohou, neboť se nejedná o chybějící API, ale o konflikt na úrovni samotné syntaxe jazyka. Ten lze řešit dvěma způsoby. První je zřejmý: použít pouze syntax, jejímž sítem projdou všechny vybrané prohlížeče. Pokud však nechceme slevit a toužíme využít všech možností jazyka, nezbývá nám, než zvolit metodu zvanou *transpilace*, která zdrojový kód převede do podoby stravitelné pro **specifikovanou** sadu prohlížečů. Nejlepším nástrojem pro tento účel je [Babel](https://babeljs.io/). Když jím proženeme náš příklad, je výstupem kód, který snesou i poslední dvě verze Internet Exploreru.
 
 ```js
 var reqPolyfills = polyfills.filter(function(_ref) {
@@ -181,4 +189,4 @@ var reqPolyfills = polyfills.filter(function(_ref) {
 });
 ```
 
-Výsledkem celého snažení je tedy kombinace dvou skriptů, `scout.js` a `app.js`, které zajistí, že naše služba s jistotou poběží v jasně určené množině prohlížečů, ale zároveň zbytečně nezatíží ty uživatele, v jejichž prohlížečích nemá smysl stahovat a spouštět JavaScript. O to důležitejší je pak správný návrh aplikace a dodržení principu postupného vylepšení. V dalších článcích pak prozkoumáme, jak podobný přístup použít v případě *frameworků* jako je React.
+Výsledkem celého snažení je tedy kombinace dvou skriptů, `scout.js` a `app.js`, které zajistí, že naše služba s jistotou poběží v jasně určené množině prohlížečů, ale zároveň zbytečně nezatíží ty uživatele, v jejichž prohlížečích nemá smysl stahovat a spouštět JavaScript. O to důležitejší je pak správný návrh aplikace a dodržení [principu postupného vylepšení](/princip-postupneho-vylepseni/). V dalších článcích prozkoumáme, jak podobný přístup použít v i případě *frameworků* jako je React.

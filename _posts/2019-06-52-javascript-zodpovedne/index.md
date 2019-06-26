@@ -10,6 +10,7 @@ imageUrl: /assets/javascript-zodpovedne/thumb.jpg
 ---
 
 V [předchozím článku](/princip-postupneho-vylepseni/) jsem popsal způsob návrhu aplikace zvaný princip postupného vylepšení. Ten říká, že základem webové služby musí být HTML a JavaScript považuje za jedno z vylepšení. Jak ovšem zajistit, aby se JavaScript skutečně spustil jen tehdy, kdy máme jistotu, že to hostitelské prostředí — typicky prohlížeč — snese? A jak stanovit hranici, která uživatele jasně rozdělí na dva tábory: s JavaScriptem a bez?
+![](/assets/javascript-zodpovedne/thumb.jpg)
 
 Podstata obou otázek spočívá v problému detekce prostředí. Web není *binární* platforma jako iOS nebo Android, ale obrovská množina konfigurací. Z principu tedy není možné vytvořit jednotný zážitek a aplikace musí být **„responzivní“** i z pohledu *UX*. Jednou cestou, jak s problémem naložit, je tázat se prostředí na jeho **název** a **verzi**, a na základě odpovědi zvolit postup. Typicky se ptáme na HTTP hlavičku `User Agent`. Ta nám ovšem nedává žádnou záruku o své pravdivosti a snadno se může stát, že narazíme na prostředí, které se tváří býti něčím, čím není. Takový postup tedy stojí na velmi vratkých nohách.
 
